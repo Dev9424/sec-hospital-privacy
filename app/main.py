@@ -1,9 +1,17 @@
 from pathlib import Path
-import os, cv2, numpy as np, base64, random, time
+import os, sys, cv2, numpy as np, base64, random, time
 from fastapi import FastAPI,File,Form,HTTPException,UploadFile
+from pydantic import BaseModel
 from .anonymizer import scrub_metadata,anonymize,encode_jpeg,new_filename
 from .fracatlas import load_yolo_boxes
 from .ocr import detect_text
+
+# Step 5: import text_anonymization from project root (one level above app/).
+# text_anonymization.py logic is NOT modified here — we only import it.
+_PROJECT_ROOT = str(Path(__file__).parent.parent)
+if _PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, _PROJECT_ROOT)
+from text_anonymization import anonymize_clinical_note
 
 app=FastAPI(title="SUPMS Medical Data Anonymization Service",version="0.1.0")
 MAX_BYTES=int(os.getenv("MAX_IMAGE_BYTES",20*1024*1024))
@@ -110,6 +118,41 @@ def _render_phi_on_image(img_bgr, fields):
 
 @app.get("/health")
 def health(): return {"status":"ok","service":"supms-anonymization"}
+
+
+# ── Step 5: Text anonymization endpoint ────────────────────────────────────
+class TextAnonymizeRequest(BaseModel):
+    text: str
+    base_noise: float = 300.0
+    largest_group_size: int = 1000
+    current_group_size: int = 1000
+
+class TextAnonymizeResponse(BaseModel):
+    anonymized_text: str
+    original_length: int
+    anonymized_length: int
+
+@app.post("/anonymize-text", response_model=TextAnonymizeResponse)
+def anonymize_text(req: TextAnonymizeRequest):
+    """
+    Anonymize a clinical text note.
+    Wraps text_anonymization.anonymize_clinical_note() without modifying its logic.
+    Pipeline: regex redaction -> spaCy NER redaction -> Fair-DP noise on numeric lab values.
+    """
+    if not req.text or not req.text.strip():
+        raise HTTPException(status_code=400, detail="text field must not be empty")
+    result = anonymize_clinical_note(
+        req.text,
+        base_noise=req.base_noise,
+        largest_group_size=req.largest_group_size,
+        current_group_size=req.current_group_size,
+    )
+    return TextAnonymizeResponse(
+        anonymized_text=result,
+        original_length=len(req.text),
+        anonymized_length=len(result),
+    )
+
 
 @app.post("/anonymize")
 async def run(file:UploadFile=File(...),annotation_root:str|None=Form(None),
