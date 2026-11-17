@@ -105,3 +105,49 @@ def test_real_orgs_and_locations_redacted():
     anon = anonymize_clinical_note(note)
     assert "Apollo Hospital" not in anon
     assert "Coimbatore" not in anon
+
+
+def test_pipeline_pass_order(monkeypatch):
+    """
+    Proves by call-recording monkeypatch that the execution order is strictly:
+    1. redact_regex -> 2. apply_dp_to_numeric_values (Fair-DP noise) -> 3. redact_cued_names -> 4. redact_ner
+    """
+    import text_anonymization
+
+    call_order = []
+
+    orig_regex = text_anonymization.redact_regex
+    orig_dp = text_anonymization.apply_dp_to_numeric_values
+    orig_cued = text_anonymization.redact_cued_names
+    orig_ner = text_anonymization.redact_ner
+
+    def mock_regex(text):
+        call_order.append("regex")
+        return orig_regex(text)
+
+    def mock_dp(text, base_noise, largest_group_size, current_group_size):
+        call_order.append("fair_dp_noise")
+        return orig_dp(text, base_noise, largest_group_size, current_group_size)
+
+    def mock_cued(text):
+        call_order.append("cued_names")
+        return orig_cued(text)
+
+    def mock_ner(text):
+        call_order.append("ner")
+        return orig_ner(text)
+
+    monkeypatch.setattr(text_anonymization, "redact_regex", mock_regex)
+    monkeypatch.setattr(text_anonymization, "apply_dp_to_numeric_values", mock_dp)
+    monkeypatch.setattr(text_anonymization, "redact_cued_names", mock_cued)
+    monkeypatch.setattr(text_anonymization, "redact_ner", mock_ner)
+
+    sample = "Patient Ramesh Kumar (WBC: 12500) visited Apollo Hospital."
+    result = text_anonymization.anonymize_clinical_note(sample)
+
+    assert call_order == ["regex", "fair_dp_noise", "cued_names", "ner"], (
+        f"Incorrect pipeline order: {call_order}"
+    )
+    assert "[PATIENT_NAME]" in result
+    assert "WBC:" in result
+
