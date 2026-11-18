@@ -1,0 +1,126 @@
+{
+  "image_id": "045.jpg",
+  "source_file": "IMG0001002.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0001002.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: BINDU AGARWAL",
+      "bbox": [
+        9,
+        335,
+        192,
+        347
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 350
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P33006",
+      "bbox": [
+        9,
+        355,
+        207,
+        368
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 350
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 19/08/1995",
+      "bbox": [
+        9,
+        375,
+        135,
+        391
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 350
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. V. REDDY",
+      "bbox": [
+        9,
+        395,
+        152,
+        407
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 350
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: TRAUMA & ORTHO",
+      "bbox": [
+        9,
+        415,
+        176,
+        427
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 350
+    }
+  ],
+  "random_seed": 350,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

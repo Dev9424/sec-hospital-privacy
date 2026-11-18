@@ -1,0 +1,126 @@
+{
+  "image_id": "018.jpg",
+  "source_file": "IMG0001488.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 454,
+  "image_height": 373,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0001488.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: ARJUN RAJPUT",
+      "bbox": [
+        9,
+        254,
+        183,
+        266
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 161
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P73052",
+      "bbox": [
+        9,
+        274,
+        207,
+        287
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 161
+    },
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2023-16441",
+      "bbox": [
+        9,
+        294,
+        168,
+        307
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 161
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 15/12/1953",
+      "bbox": [
+        9,
+        314,
+        135,
+        330
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 161
+    },
+    {
+      "type": "ACCESSION_NUMBER",
+      "text": "ACC: ACC-23-91490",
+      "bbox": [
+        9,
+        334,
+        152,
+        347
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 161
+    }
+  ],
+  "random_seed": 161,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

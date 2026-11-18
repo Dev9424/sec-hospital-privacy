@@ -1,0 +1,102 @@
+{
+  "image_id": "088.jpg",
+  "source_file": "IMG0002605.jpg",
+  "source_category": "Fractured",
+  "image_width": 454,
+  "image_height": 373,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002605.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.542182,
+      0.406068,
+      0.067107,
+      0.091015
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      230,
+      134,
+      261,
+      168
+    ]
+  ],
+  "layout_pattern": "top_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: SHALINI VERMA",
+      "bbox": [
+        220,
+        129,
+        359,
+        139
+      ],
+      "placement_region": "top_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0677,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 651
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P42506",
+      "bbox": [
+        220,
+        145,
+        370,
+        155
+      ],
+      "placement_region": "top_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": true,
+      "fracture_iou": 0.1381,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 651
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 10/04/1972",
+      "bbox": [
+        220,
+        161,
+        316,
+        173
+      ],
+      "placement_region": "top_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": true,
+      "fracture_iou": 0.1091,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 651
+    }
+  ],
+  "random_seed": 651,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

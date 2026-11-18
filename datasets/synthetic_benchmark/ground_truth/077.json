@@ -1,0 +1,126 @@
+{
+  "image_id": "077.jpg",
+  "source_file": "IMG0000028.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 2304,
+  "image_height": 2880,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0000028.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: VINOD MISHRA",
+      "bbox": [
+        1479,
+        2643,
+        1843,
+        2663
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 28,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 574
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P59531",
+      "bbox": [
+        1479,
+        2677,
+        1893,
+        2698
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 28,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 574
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 23/07/1952",
+      "bbox": [
+        1479,
+        2711,
+        1740,
+        2738
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 28,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 574
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "UNITY HOSPITAL & RESEARCH",
+      "bbox": [
+        1479,
+        2745,
+        1910,
+        2765
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 28,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 574
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 09/09/2022",
+      "bbox": [
+        1479,
+        2779,
+        1757,
+        2806
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 28,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 574
+    }
+  ],
+  "random_seed": 574,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

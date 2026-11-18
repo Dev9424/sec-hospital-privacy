@@ -1,0 +1,126 @@
+{
+  "image_id": "035.jpg",
+  "source_file": "IMG0001588.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0001588.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "top_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: VARSHA DUBEY",
+      "bbox": [
+        9,
+        9,
+        184,
+        21
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 280
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P53969",
+      "bbox": [
+        9,
+        29,
+        207,
+        42
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 280
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 18/01/1981",
+      "bbox": [
+        9,
+        49,
+        135,
+        65
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 280
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "APOLLO MEDICAL CENTRE",
+      "bbox": [
+        9,
+        69,
+        184,
+        81
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 280
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 20/11/2023",
+      "bbox": [
+        9,
+        89,
+        143,
+        105
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 280
+    }
+  ],
+  "random_seed": 280,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

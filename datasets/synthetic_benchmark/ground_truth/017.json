@@ -1,0 +1,135 @@
+{
+  "image_id": "017.jpg",
+  "source_file": "IMG0003905.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003905.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.36387,
+      0.303454,
+      0.044042,
+      0.064145
+    ],
+    [
+      0.418422,
+      0.26727,
+      0.055052,
+      0.042763
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      127,
+      123,
+      143,
+      152
+    ],
+    [
+      145,
+      111,
+      166,
+      131
+    ]
+  ],
+  "layout_pattern": "top_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: VARSHA AGARWAL",
+      "bbox": [
+        117,
+        118,
+        308,
+        130
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.1024,
+      "fracture_annotation_ids": [
+        0,
+        1
+      ],
+      "random_seed": 154
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "KRISHNA MEDICAL COLLEGE HOSPITAL",
+      "bbox": [
+        117,
+        138,
+        373,
+        150
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0574,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 154
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 14/11/2026",
+      "bbox": [
+        117,
+        158,
+        251,
+        174
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 154
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. A. MEHTA",
+      "bbox": [
+        117,
+        178,
+        260,
+        190
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 154
+    }
+  ],
+  "random_seed": 154,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

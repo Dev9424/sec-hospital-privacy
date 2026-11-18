@@ -1,0 +1,104 @@
+{
+  "image_id": "082.jpg",
+  "source_file": "IMG0001164.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0001164.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: REKHA MENON",
+      "bbox": [
+        9,
+        355,
+        176,
+        367
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 609
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 06/05/1997",
+      "bbox": [
+        9,
+        375,
+        135,
+        391
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 609
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. R. SHARMA",
+      "bbox": [
+        9,
+        395,
+        160,
+        407
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 609
+    },
+    {
+      "type": "EXAMINATION_NUMBER",
+      "text": "EXAM: EX-1892",
+      "bbox": [
+        9,
+        415,
+        119,
+        428
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 609
+    }
+  ],
+  "random_seed": 609,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

@@ -1,0 +1,42 @@
+WBE ML ANONYMIZATION - PHASE 1: ML PROBLEMS (v2 - WITH IoU)
+============================================================
+
+PROBLEM 1 (RESOLVED): PREDICTED BBOX NOW AVAILABLE
+  anonymize_xray.py refactored to return (text, is_phi, [x,y,w,h]).
+  Pixel-level IoU is now computed. Mean IoU = 0.4967
+  IoU >= 0.50: 276/383
+  IoU >= 0.75: 5/383
+
+PROBLEM 2: OCR DETECTION RECALL = 0.9575
+  17/400 GT PHI missed.
+  Likely cause: small thumbnail images where OCR fails at native resolution.
+  app/ocr.py upscales 2x -- anonymize_xray.py does not.
+
+PROBLEM 3: FALSE POSITIVES = 29
+  Adding 'scan'/'date' to PHI_KEYWORDS may increase FP on date-like metadata.
+  Monitor FP rate; consider requiring keyword+value pattern.
+
+PROBLEM 4: NOT REDACTED = 17 regions
+  GT PHI that was not detected or not classified as PHI.
+
+PROBLEM 5: DETECTED BUT NOT REDACTED = 4 regions
+  OCR found the text but line_is_phi returned False.
+
+PROBLEM 6: IMAGE UPSCALING GAP
+  app/ocr.py: 2x upscale + normalize before OCR.
+  anonymize_xray.py: native resolution only.
+  Systematic recall deficit for small FracAtlas thumbnails.
+
+PROBLEM 7: FRACTURE REGION CONFLICT
+  48 PHI annotations overlap YOLO fracture bboxes.
+  anonymize_xray.py blindly fills black over fracture zones.
+  app/anonymizer.py routes these to manual review queue.
+  Policy must be defined for research.
+
+PROBLEM 8: NO CONFIDENCE THRESHOLD
+  anonymize_xray.py accepts all Tesseract output.
+  app/ocr.py filters at conf >= 35.
+
+PROBLEM 9: NO METADATA SCRUBBING
+  app/anonymizer.py strips EXIF/IPTC. anonymize_xray.py does not.
+

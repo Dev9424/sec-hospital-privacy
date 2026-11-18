@@ -1,0 +1,122 @@
+{
+  "image_id": "023.jpg",
+  "source_file": "IMG0003564.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003564.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.686678,
+      0.52426,
+      0.097092,
+      0.040296
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      238,
+      228,
+      274,
+      247
+    ]
+  ],
+  "layout_pattern": "top_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: NIKHIL KAPOOR",
+      "bbox": [
+        228,
+        223,
+        373,
+        235
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.116,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 196
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 23/03/1982",
+      "bbox": [
+        228,
+        243,
+        354,
+        259
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0563,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 196
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. D. BHAT",
+      "bbox": [
+        228,
+        263,
+        362,
+        275
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 196
+    },
+    {
+      "type": "EXAMINATION_NUMBER",
+      "text": "EXAM: EX-2770",
+      "bbox": [
+        228,
+        283,
+        338,
+        296
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 196
+    }
+  ],
+  "random_seed": 196,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

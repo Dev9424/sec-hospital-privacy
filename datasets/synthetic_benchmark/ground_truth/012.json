@@ -1,0 +1,146 @@
+{
+  "image_id": "012.jpg",
+  "source_file": "IMG0001494.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0001494.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.495999,
+      0.403862,
+      0.126016,
+      0.078061
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      161,
+      165,
+      208,
+      201
+    ]
+  ],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: NIKHIL GHOSH",
+      "bbox": [
+        151,
+        160,
+        326,
+        172
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.095,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 119
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P92663",
+      "bbox": [
+        151,
+        180,
+        349,
+        193
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.1672,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 119
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 08/03/1966",
+      "bbox": [
+        151,
+        200,
+        277,
+        216
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0128,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 119
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. D. BHAT",
+      "bbox": [
+        151,
+        220,
+        285,
+        232
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 119
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: ORTHOPAEDICS",
+      "bbox": [
+        151,
+        240,
+        301,
+        252
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 119
+    }
+  ],
+  "random_seed": 119,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

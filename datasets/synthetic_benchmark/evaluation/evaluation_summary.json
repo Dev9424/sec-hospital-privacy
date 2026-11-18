@@ -1,0 +1,23 @@
+{
+  "total_images_processed": 98,
+  "failed_images": 98,
+  "total_phi_fields_inserted": 0,
+  "total_phi_detected": 0,
+  "total_phi_missed": 0,
+  "total_false_positives": 0,
+  "total_review_flagged": 0,
+  "precision_at_50": 0.0,
+  "recall_at_50": 0.0,
+  "f1_at_50": 0.0,
+  "precision_at_30": 0.0,
+  "recall_at_30": 0.0,
+  "f1_at_30": 0.0,
+  "precision_at_75": 0.0,
+  "recall_at_75": 0.0,
+  "f1_at_75": 0.0,
+  "redaction_recall": 0.0,
+  "review_rate": 0.0,
+  "group_A_no_overlap_recall": 0.0,
+  "group_B_frac_overlap_recall": 0.0,
+  "average_processing_time_s": 0.0
+}

@@ -1,0 +1,126 @@
+{
+  "image_id": "090.jpg",
+  "source_file": "IMG0000705.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0000705.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: SAROJ MENON",
+      "bbox": [
+        164,
+        355,
+        290,
+        365
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 665
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P74605",
+      "bbox": [
+        164,
+        371,
+        314,
+        381
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 665
+    },
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2022-20688",
+      "bbox": [
+        164,
+        387,
+        285,
+        397
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 665
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 27/07/1990",
+      "bbox": [
+        164,
+        403,
+        260,
+        415
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 665
+    },
+    {
+      "type": "ACCESSION_NUMBER",
+      "text": "ACC: ACC-25-95480",
+      "bbox": [
+        164,
+        419,
+        273,
+        429
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 665
+    }
+  ],
+  "random_seed": 665,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

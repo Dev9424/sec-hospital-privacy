@@ -1,0 +1,126 @@
+{
+  "image_id": "007.jpg",
+  "source_file": "IMG0002347.jpg",
+  "source_category": "Fractured",
+  "image_width": 2304,
+  "image_height": 2880,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002347.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.419885,
+      0.426459,
+      0.049302,
+      0.065735
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      910,
+      1133,
+      1024,
+      1322
+    ]
+  ],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P35773",
+      "bbox": [
+        900,
+        1128,
+        1314,
+        1149
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 28,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0642,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 84
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "RELIABLE HEALTH SERVICES",
+      "bbox": [
+        900,
+        1162,
+        1314,
+        1182
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 28,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0828,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 84
+    },
+    {
+      "type": "ACCESSION_NUMBER",
+      "text": "ACC: ACC-23-82278",
+      "bbox": [
+        900,
+        1196,
+        1196,
+        1217
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 28,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0944,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 84
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 25/12/2024",
+      "bbox": [
+        900,
+        1230,
+        1178,
+        1257
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 28,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.1185,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 84
+    }
+  ],
+  "random_seed": 84,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

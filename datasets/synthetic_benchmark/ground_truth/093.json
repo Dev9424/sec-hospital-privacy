@@ -1,0 +1,156 @@
+{
+  "image_id": "093.jpg",
+  "source_file": "IMG0002394.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002394.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.260469,
+      0.418652,
+      0.035005,
+      0.046836
+    ],
+    [
+      0.782037,
+      0.444947,
+      0.040005,
+      0.03862
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      90,
+      179,
+      103,
+      200
+    ],
+    [
+      284,
+      193,
+      299,
+      210
+    ]
+  ],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: LEELA CHAUHAN",
+      "bbox": [
+        274,
+        188,
+        373,
+        198
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0641,
+      "fracture_annotation_ids": [
+        1
+      ],
+      "random_seed": 686
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P72209",
+      "bbox": [
+        274,
+        204,
+        373,
+        214
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0779,
+      "fracture_annotation_ids": [
+        1
+      ],
+      "random_seed": 686
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 10/11/1957",
+      "bbox": [
+        274,
+        220,
+        370,
+        232
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 686
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. K. NAIR",
+      "bbox": [
+        274,
+        236,
+        373,
+        246
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 686
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: ORTHOPAEDICS",
+      "bbox": [
+        274,
+        252,
+        373,
+        262
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 686
+    }
+  ],
+  "random_seed": 686,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

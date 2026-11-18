@@ -1,0 +1,132 @@
+{
+  "image_id": "029.jpg",
+  "source_file": "IMG0002425.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002425.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.274971,
+      0.395645,
+      0.044006,
+      0.028759
+    ],
+    [
+      0.80704,
+      0.301561,
+      0.064008,
+      0.026294
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      94,
+      173,
+      110,
+      186
+    ],
+    [
+      289,
+      130,
+      312,
+      142
+    ]
+  ],
+  "layout_pattern": "top_center",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: DEEPAK IYER",
+      "bbox": [
+        84,
+        168,
+        251,
+        180
+      ],
+      "placement_region": "top_center",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0533,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 238
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P25303",
+      "bbox": [
+        84,
+        188,
+        282,
+        201
+      ],
+      "placement_region": "top_center",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 238
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "APOLLO MEDICAL CENTRE",
+      "bbox": [
+        84,
+        208,
+        259,
+        220
+      ],
+      "placement_region": "top_center",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 238
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. S. PATEL",
+      "bbox": [
+        84,
+        228,
+        227,
+        240
+      ],
+      "placement_region": "top_center",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 238
+    }
+  ],
+  "random_seed": 238,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

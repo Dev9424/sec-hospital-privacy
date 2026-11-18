@@ -1,0 +1,147 @@
+{
+  "image_id": "078.jpg",
+  "source_file": "IMG0002382.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002382.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.227965,
+      0.411668,
+      0.052007,
+      0.054232
+    ],
+    [
+      0.748032,
+      0.385785,
+      0.036005,
+      0.036976
+    ],
+    [
+      0.823042,
+      0.372227,
+      0.038005,
+      0.047658
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      75,
+      174,
+      94,
+      199
+    ],
+    [
+      272,
+      166,
+      285,
+      183
+    ],
+    [
+      299,
+      158,
+      314,
+      179
+    ]
+  ],
+  "layout_pattern": "top_center",
+  "fields": [
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P10753",
+      "bbox": [
+        262,
+        161,
+        373,
+        174
+      ],
+      "placement_region": "top_center",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.1248,
+      "fracture_annotation_ids": [
+        1,
+        2
+      ],
+      "random_seed": 581
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "LOTUS MULTISPECIALITY HOSPITAL",
+      "bbox": [
+        262,
+        181,
+        373,
+        193
+      ],
+      "placement_region": "top_center",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.017,
+      "fracture_annotation_ids": [
+        1
+      ],
+      "random_seed": 581
+    },
+    {
+      "type": "ACCESSION_NUMBER",
+      "text": "ACC: ACC-22-70110",
+      "bbox": [
+        262,
+        201,
+        373,
+        214
+      ],
+      "placement_region": "top_center",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 581
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 18/09/2022",
+      "bbox": [
+        262,
+        221,
+        373,
+        237
+      ],
+      "placement_region": "top_center",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 581
+    }
+  ],
+  "random_seed": 581,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

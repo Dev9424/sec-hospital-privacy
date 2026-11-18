@@ -1,0 +1,82 @@
+{
+  "image_id": "076.jpg",
+  "source_file": "IMG0001186.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 454,
+  "image_height": 373,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0001186.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P70977",
+      "bbox": [
+        245,
+        294,
+        443,
+        307
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 567
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 13/12/1951",
+      "bbox": [
+        245,
+        314,
+        371,
+        330
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 567
+    },
+    {
+      "type": "ACCESSION_NUMBER",
+      "text": "ACC: ACC-26-31283",
+      "bbox": [
+        245,
+        334,
+        388,
+        347
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 567
+    }
+  ],
+  "random_seed": 567,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

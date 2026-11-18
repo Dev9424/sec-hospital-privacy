@@ -1,0 +1,104 @@
+{
+  "image_id": "031.jpg",
+  "source_file": "IMG0002794.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002794.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: DEEPAK RAO",
+      "bbox": [
+        164,
+        355,
+        323,
+        367
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 252
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P54380",
+      "bbox": [
+        164,
+        375,
+        362,
+        388
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 252
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "CIVIC HEALTH CENTRE",
+      "bbox": [
+        164,
+        395,
+        322,
+        407
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 252
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. Y. YADAV",
+      "bbox": [
+        164,
+        415,
+        307,
+        427
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 252
+    }
+  ],
+  "random_seed": 252,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

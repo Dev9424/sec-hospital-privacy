@@ -1,0 +1,68 @@
+# ============================================================
+# SUPMS-Fair: mtech project ref — .gitignore
+# ============================================================
+
+# --- Python artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Virtual environments ---
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# --- Tesseract binary distribution (huge, platform-specific) ---
+# Install tesseract locally; path configured in app/ocr.py (documented in README)
+tesseract.exe
+tesseract-uninstall.exe
+tessdata/
+tesseract.1.html
+
+# --- All Tesseract Windows DLL and EXE binaries ---
+*.dll
+*.exe
+*.1.html
+*.5.html
+
+# --- Large binary/document files ---
+*.pdf
+*.pptx
+*.docx
+*.zip
+*.pbs
+*.sbatch
+
+# --- Anonymized run-time output images ---
+anonymized_output/
+xray_before.jpg
+xray_after_redacted.jpg
+image1.png
+redacted_report.png
+sample_report.png
+mura_anonymization_before_after.png
+
+# --- Benchmark dataset IMAGES (large; ground-truth CSVs/JSONs are kept) ---
+datasets/synthetic_phi/
+datasets/fracatlas_original/
+datasets/synthetic_benchmark/images/
+datasets/synthetic_benchmark/original/
+datasets/synthetic_benchmark/contaminated/
+datasets/synthetic_benchmark/anonymized/
+datasets/synthetic_benchmark/anonymized_output/
+datasets/synthetic_benchmark/metadata/
+datasets/synthetic_benchmark/visualizations/
+
+# --- FracAtlas (large YOLO dataset) ---
+FracAtlas/
+
+# --- Misc scratch files ---
+paper_check/
+doc/
+files/
+kanonymity.pdf

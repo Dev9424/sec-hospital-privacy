@@ -1,0 +1,82 @@
+{
+  "image_id": "043.jpg",
+  "source_file": "IMG0001024.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 454,
+  "image_height": 373,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0001024.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: LATA DUTTA",
+      "bbox": [
+        9,
+        294,
+        168,
+        306
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 336
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P13403",
+      "bbox": [
+        9,
+        314,
+        207,
+        327
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 336
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 16/09/1971",
+      "bbox": [
+        9,
+        334,
+        135,
+        350
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 336
+    }
+  ],
+  "random_seed": 336,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

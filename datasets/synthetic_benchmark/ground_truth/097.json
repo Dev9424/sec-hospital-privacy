@@ -1,0 +1,104 @@
+{
+  "image_id": "097.jpg",
+  "source_file": "IMG0003252.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 454,
+  "image_height": 373,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003252.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: GANESH DAS",
+      "bbox": [
+        9,
+        290,
+        129,
+        300
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 714
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P20140",
+      "bbox": [
+        9,
+        306,
+        159,
+        316
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 714
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "APOLLO MEDICAL CENTRE",
+      "bbox": [
+        9,
+        322,
+        142,
+        332
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 714
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. N. IYER",
+      "bbox": [
+        9,
+        338,
+        112,
+        348
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 714
+    }
+  ],
+  "random_seed": 714,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

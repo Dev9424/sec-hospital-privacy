@@ -1,0 +1,144 @@
+{
+  "image_id": "080.jpg",
+  "source_file": "IMG0002946.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002946.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.504004,
+      0.613076,
+      0.068065,
+      0.043586
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      175,
+      268,
+      200,
+      288
+    ]
+  ],
+  "layout_pattern": "bottom_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: SANJAY SHUKLA",
+      "bbox": [
+        165,
+        263,
+        348,
+        275
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0694,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 595
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P73323",
+      "bbox": [
+        165,
+        283,
+        363,
+        296
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0424,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 595
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 23/07/1970",
+      "bbox": [
+        165,
+        303,
+        291,
+        319
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 595
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. V. REDDY",
+      "bbox": [
+        165,
+        323,
+        308,
+        335
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 595
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: MUSCULOSKELETAL IMAGING",
+      "bbox": [
+        165,
+        343,
+        373,
+        355
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 595
+    }
+  ],
+  "random_seed": 595,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

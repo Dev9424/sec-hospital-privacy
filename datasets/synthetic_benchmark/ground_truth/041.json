@@ -1,0 +1,120 @@
+{
+  "image_id": "041.jpg",
+  "source_file": "IMG0003297.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003297.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.620615,
+      0.617188,
+      0.077073,
+      0.032072
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      217,
+      272,
+      245,
+      287
+    ]
+  ],
+  "layout_pattern": "bottom_left",
+  "fields": [
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2022-84650",
+      "bbox": [
+        207,
+        267,
+        366,
+        280
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.099,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 322
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 05/05/2023",
+      "bbox": [
+        207,
+        287,
+        341,
+        303
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 322
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: INTERVENTIONAL RADIOLOGY",
+      "bbox": [
+        207,
+        307,
+        373,
+        319
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 322
+    },
+    {
+      "type": "EXAMINATION_NUMBER",
+      "text": "EXAM: EX-9942",
+      "bbox": [
+        207,
+        327,
+        317,
+        340
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 322
+    }
+  ],
+  "random_seed": 322,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

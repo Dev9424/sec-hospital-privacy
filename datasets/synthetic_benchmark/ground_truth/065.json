@@ -1,0 +1,144 @@
+{
+  "image_id": "065.jpg",
+  "source_file": "IMG0002123.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002123.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.658672,
+      0.497937,
+      0.082349,
+      0.05198
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      230,
+      214,
+      261,
+      237
+    ]
+  ],
+  "layout_pattern": "top_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: KAMAL KRISHNAN",
+      "bbox": [
+        220,
+        209,
+        373,
+        221
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0931,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 490
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P78920",
+      "bbox": [
+        220,
+        229,
+        373,
+        242
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.1011,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 490
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 28/07/1971",
+      "bbox": [
+        220,
+        249,
+        346,
+        265
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 490
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. B. SINGH",
+      "bbox": [
+        220,
+        269,
+        363,
+        281
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 490
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: DIAGNOSTIC IMAGING",
+      "bbox": [
+        220,
+        289,
+        373,
+        301
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 490
+    }
+  ],
+  "random_seed": 490,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

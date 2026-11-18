@@ -1,0 +1,82 @@
+{
+  "image_id": "052.jpg",
+  "source_file": "IMG0003655.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003655.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "top_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: AMIT IYER",
+      "bbox": [
+        164,
+        9,
+        315,
+        21
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 399
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P99326",
+      "bbox": [
+        164,
+        29,
+        362,
+        42
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 399
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 03/09/1953",
+      "bbox": [
+        164,
+        49,
+        290,
+        65
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 399
+    }
+  ],
+  "random_seed": 399,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

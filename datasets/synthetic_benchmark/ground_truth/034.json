@@ -1,0 +1,104 @@
+{
+  "image_id": "034.jpg",
+  "source_file": "IMG0003037.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003037.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "top_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: SURESH MENON",
+      "bbox": [
+        9,
+        9,
+        184,
+        21
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 273
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "SUNRISEHEALTH HOSPITAL",
+      "bbox": [
+        9,
+        29,
+        192,
+        41
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 273
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 17/04/2026",
+      "bbox": [
+        9,
+        49,
+        143,
+        65
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 273
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. S. PATEL",
+      "bbox": [
+        9,
+        69,
+        152,
+        81
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 273
+    }
+  ],
+  "random_seed": 273,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

@@ -1,0 +1,104 @@
+{
+  "image_id": "044.jpg",
+  "source_file": "IMG0003060.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003060.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "top_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: RAJEEV DAS",
+      "bbox": [
+        9,
+        9,
+        167,
+        21
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 343
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "CITYCARE GENERAL HOSPITAL",
+      "bbox": [
+        9,
+        29,
+        216,
+        41
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 343
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 09/05/2023",
+      "bbox": [
+        9,
+        49,
+        143,
+        65
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 343
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. P. GUPTA",
+      "bbox": [
+        9,
+        69,
+        152,
+        81
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 343
+    }
+  ],
+  "random_seed": 343,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

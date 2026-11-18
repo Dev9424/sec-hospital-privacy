@@ -1,0 +1,126 @@
+{
+  "image_id": "099.jpg",
+  "source_file": "IMG0003880.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003880.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "top_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: AARAV ARORA",
+      "bbox": [
+        9,
+        9,
+        136,
+        19
+      ],
+      "placement_region": "top_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 728
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P53127",
+      "bbox": [
+        9,
+        25,
+        159,
+        35
+      ],
+      "placement_region": "top_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 728
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 23/03/1989",
+      "bbox": [
+        9,
+        41,
+        105,
+        53
+      ],
+      "placement_region": "top_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 728
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. H. MISHRA",
+      "bbox": [
+        9,
+        57,
+        124,
+        67
+      ],
+      "placement_region": "top_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 728
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: RADIOLOGY",
+      "bbox": [
+        9,
+        73,
+        105,
+        83
+      ],
+      "placement_region": "top_left",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 728
+    }
+  ],
+  "random_seed": 728,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

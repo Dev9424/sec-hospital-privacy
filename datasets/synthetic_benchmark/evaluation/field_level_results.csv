@@ -1,0 +1,385 @@
+image_id,field_type,gt_text,gt_bbox,detected,frac_overlap,frac_iou,overlap_group
+001.jpg,PATIENT_NAME,PATIENT: SANJAY NAIR,"[147, 241, 314, 253]",False,True,0.0479,B_fracture_overlap
+001.jpg,DOB,DOB: 24/02/1993,"[147, 261, 273, 277]",False,True,0.1161,B_fracture_overlap
+001.jpg,DOCTOR_NAME,REF: DR. S. PATEL,"[147, 281, 290, 293]",False,True,0.0946,B_fracture_overlap
+001.jpg,EXAMINATION_NUMBER,EXAM: EX-7912,"[147, 301, 257, 314]",False,False,0.0,B_fracture_overlap
+002.jpg,PATIENT_NAME,PATIENT: VIVEK THAKUR,"[9, 375, 184, 387]",False,False,0.0,A_no_overlap
+002.jpg,MRN,MRN: MRN-2020-46166,"[9, 395, 168, 408]",True,False,0.0,A_no_overlap
+002.jpg,HOSPITAL,METRO HEALTHCARE HOSPITAL,"[9, 415, 217, 427]",True,False,0.0,A_no_overlap
+003.jpg,MRN,MRN: MRN-2025-40269,"[286, 238, 373, 251]",False,True,0.1984,B_fracture_overlap
+003.jpg,STUDY_DATE,DATE: 04/06/2026,"[286, 258, 373, 274]",False,True,0.0183,B_fracture_overlap
+003.jpg,DEPARTMENT,DEPT: RADIOLOGY,"[286, 278, 373, 290]",False,False,0.0,B_fracture_overlap
+003.jpg,EXAMINATION_NUMBER,EXAM: EX-6527,"[286, 298, 373, 311]",False,False,0.0,B_fracture_overlap
+004.jpg,PATIENT_ID,PATIENT ID: SUPMS-P96483,"[9, 355, 207, 368]",True,False,0.0,A_no_overlap
+004.jpg,MRN,MRN: MRN-2020-60686,"[9, 375, 168, 388]",True,False,0.0,A_no_overlap
+004.jpg,HOSPITAL,SUNRISEHEALTH HOSPITAL,"[9, 395, 192, 407]",True,False,0.0,A_no_overlap
+004.jpg,DEPARTMENT,DEPT: RADIOLOGY,"[9, 415, 136, 427]",True,False,0.0,A_no_overlap
+005.jpg,PATIENT_NAME,PATIENT: VARSHA NAIR,"[164, 335, 331, 347]",False,False,0.0,A_no_overlap
+005.jpg,PATIENT_ID,PATIENT ID: SUPMS-P52226,"[164, 355, 362, 368]",True,False,0.0,A_no_overlap
+005.jpg,DOB,DOB: 04/03/2002,"[164, 375, 290, 391]",True,False,0.0,A_no_overlap
+005.jpg,DOCTOR_NAME,REF: DR. M. JOSHI,"[164, 395, 306, 407]",True,False,0.0,A_no_overlap
+005.jpg,DEPARTMENT,DEPT: INTERVENTIONAL RADIOLOGY,"[164, 415, 373, 427]",True,False,0.0,A_no_overlap
+006.jpg,PATIENT_NAME,PATIENT: ADITYA JOSHI,"[9, 355, 183, 367]",True,False,0.0,A_no_overlap
+006.jpg,PATIENT_ID,PATIENT ID: SUPMS-P48315,"[9, 375, 207, 388]",True,False,0.0,A_no_overlap
+006.jpg,HOSPITAL,SARASWATI MEDICAL CENTRE,"[9, 395, 207, 407]",True,False,0.0,A_no_overlap
+006.jpg,DOCTOR_NAME,REF: DR. N. IYER,"[9, 415, 144, 427]",False,False,0.0,A_no_overlap
+007.jpg,PATIENT_ID,PATIENT ID: SUPMS-P35773,"[900, 1128, 1314, 1149]",True,True,0.0642,B_fracture_overlap
+007.jpg,HOSPITAL,RELIABLE HEALTH SERVICES,"[900, 1162, 1314, 1182]",False,True,0.0828,B_fracture_overlap
+007.jpg,ACCESSION_NUMBER,ACC: ACC-23-82278,"[900, 1196, 1196, 1217]",False,True,0.0944,B_fracture_overlap
+007.jpg,STUDY_DATE,DATE: 25/12/2024,"[900, 1230, 1178, 1257]",True,True,0.1185,B_fracture_overlap
+008.jpg,PATIENT_NAME,PATIENT: SAVITA DUTTA,"[9, 9, 184, 21]",True,False,0.0,A_no_overlap
+008.jpg,MRN,MRN: MRN-2026-67687,"[9, 29, 168, 42]",True,False,0.0,A_no_overlap
+008.jpg,HOSPITAL,RELIABLE HEALTH SERVICES,"[9, 49, 207, 61]",True,False,0.0,A_no_overlap
+009.jpg,MRN,MRN: MRN-2020-72040,"[164, 355, 323, 368]",True,False,0.0,A_no_overlap
+009.jpg,DOB,DOB: 10/12/2002,"[164, 375, 290, 391]",True,False,0.0,A_no_overlap
+009.jpg,ACCESSION_NUMBER,ACC: ACC-25-82906,"[164, 395, 307, 408]",True,False,0.0,A_no_overlap
+009.jpg,DEPARTMENT,DEPT: RADIOLOGY,"[164, 415, 291, 427]",True,False,0.0,A_no_overlap
+010.jpg,PATIENT_NAME,PATIENT: SEEMA TIWARI,"[226, 75, 373, 87]",False,True,0.0655,B_fracture_overlap
+010.jpg,PATIENT_ID,PATIENT ID: SUPMS-P84773,"[226, 95, 373, 108]",False,True,0.1187,B_fracture_overlap
+010.jpg,DOB,DOB: 11/05/1960,"[226, 115, 352, 131]",False,True,0.1244,B_fracture_overlap
+010.jpg,DOCTOR_NAME,REF: DR. H. MISHRA,"[226, 135, 373, 147]",False,False,0.0,B_fracture_overlap
+010.jpg,DEPARTMENT,DEPT: ORTHOPAEDICS,"[226, 155, 373, 167]",False,False,0.0,B_fracture_overlap
+011.jpg,PATIENT_ID,PATIENT ID: SUPMS-P96973,"[247, 227, 445, 240]",True,True,0.0484,B_fracture_overlap
+011.jpg,MRN,MRN: MRN-2021-57512,"[247, 247, 406, 260]",True,True,0.0596,B_fracture_overlap
+011.jpg,HOSPITAL,UNITY HOSPITAL & RESEARCH,"[247, 267, 454, 279]",True,True,0.0151,B_fracture_overlap
+011.jpg,DEPARTMENT,DEPT: DIAGNOSTIC IMAGING,"[247, 287, 446, 299]",True,False,0.0,B_fracture_overlap
+012.jpg,PATIENT_NAME,PATIENT: NIKHIL GHOSH,"[151, 160, 326, 172]",False,True,0.095,B_fracture_overlap
+012.jpg,PATIENT_ID,PATIENT ID: SUPMS-P92663,"[151, 180, 349, 193]",False,True,0.1672,B_fracture_overlap
+012.jpg,DOB,DOB: 08/03/1966,"[151, 200, 277, 216]",True,True,0.0128,B_fracture_overlap
+012.jpg,DOCTOR_NAME,REF: DR. D. BHAT,"[151, 220, 285, 232]",False,False,0.0,B_fracture_overlap
+012.jpg,DEPARTMENT,DEPT: ORTHOPAEDICS,"[151, 240, 301, 252]",False,False,0.0,B_fracture_overlap
+013.jpg,HOSPITAL,SARASWATI MEDICAL CENTRE,"[164, 355, 362, 367]",False,False,0.0,A_no_overlap
+013.jpg,DEPARTMENT,DEPT: TRAUMA & ORTHO,"[164, 375, 331, 387]",False,False,0.0,A_no_overlap
+013.jpg,STUDY_DATE,DATE: 08/03/2023,"[164, 395, 298, 411]",True,False,0.0,A_no_overlap
+013.jpg,EXAMINATION_NUMBER,EXAM: EX-8976,"[164, 415, 274, 428]",True,False,0.0,A_no_overlap
+014.jpg,PATIENT_ID,PATIENT ID: SUPMS-P81434,"[1479, 2677, 1893, 2698]",True,False,0.0,A_no_overlap
+014.jpg,MRN,MRN: MRN-2025-91384,"[1479, 2711, 1809, 2732]",True,False,0.0,A_no_overlap
+014.jpg,HOSPITAL,APOLLO MEDICAL CENTRE,"[1479, 2745, 1843, 2765]",True,False,0.0,A_no_overlap
+014.jpg,DEPARTMENT,DEPT: INTERVENTIONAL RADIOLOGY,"[1479, 2779, 1995, 2799]",False,False,0.0,A_no_overlap
+015.jpg,PATIENT_NAME,PATIENT: SANJAY MEHTA,"[87, 164, 262, 176]",False,True,0.0505,B_fracture_overlap
+015.jpg,PATIENT_ID,PATIENT ID: SUPMS-P77494,"[87, 184, 285, 197]",False,True,0.0442,B_fracture_overlap
+015.jpg,HOSPITAL,GREENFIELD MEDICAL CENTRE,"[87, 204, 293, 216]",False,False,0.0,B_fracture_overlap
+015.jpg,DOCTOR_NAME,REF: DR. T. VERMA,"[87, 224, 230, 236]",False,False,0.0,B_fracture_overlap
+016.jpg,HOSPITAL,LIFELINE HOSPITAL,"[245, 9, 388, 21]",True,False,0.0,A_no_overlap
+016.jpg,DEPARTMENT,DEPT: INTERVENTIONAL RADIOLOGY,"[245, 29, 454, 41]",True,False,0.0,A_no_overlap
+016.jpg,STUDY_DATE,DATE: 24/05/2025,"[245, 49, 379, 65]",True,False,0.0,A_no_overlap
+016.jpg,EXAMINATION_NUMBER,EXAM: EX-8537,"[245, 69, 355, 82]",True,False,0.0,A_no_overlap
+017.jpg,PATIENT_NAME,PATIENT: VARSHA AGARWAL,"[117, 118, 308, 130]",False,True,0.1024,B_fracture_overlap
+017.jpg,HOSPITAL,KRISHNA MEDICAL COLLEGE HOSPITAL,"[117, 138, 373, 150]",True,True,0.0574,B_fracture_overlap
+017.jpg,STUDY_DATE,DATE: 14/11/2026,"[117, 158, 251, 174]",True,False,0.0,B_fracture_overlap
+017.jpg,DOCTOR_NAME,REF: DR. A. MEHTA,"[117, 178, 260, 190]",False,False,0.0,B_fracture_overlap
+018.jpg,PATIENT_NAME,PATIENT: ARJUN RAJPUT,"[9, 254, 183, 266]",True,False,0.0,A_no_overlap
+018.jpg,PATIENT_ID,PATIENT ID: SUPMS-P73052,"[9, 274, 207, 287]",True,False,0.0,A_no_overlap
+018.jpg,MRN,MRN: MRN-2023-16441,"[9, 294, 168, 307]",True,False,0.0,A_no_overlap
+018.jpg,DOB,DOB: 15/12/1953,"[9, 314, 135, 330]",True,False,0.0,A_no_overlap
+018.jpg,ACCESSION_NUMBER,ACC: ACC-23-91490,"[9, 334, 152, 347]",True,False,0.0,A_no_overlap
+019.jpg,PATIENT_ID,PATIENT ID: SUPMS-P79791,"[637, 1997, 1051, 2018]",False,True,0.0697,B_fracture_overlap
+019.jpg,HOSPITAL,GREENFIELD MEDICAL CENTRE,"[637, 2031, 1068, 2051]",False,True,0.0888,B_fracture_overlap
+019.jpg,ACCESSION_NUMBER,ACC: ACC-21-81552,"[637, 2065, 933, 2086]",False,True,0.0976,B_fracture_overlap
+019.jpg,STUDY_DATE,DATE: 17/08/2026,"[637, 2099, 915, 2126]",False,True,0.1262,B_fracture_overlap
+020.jpg,PATIENT_ID,PATIENT ID: SUPMS-P43736,"[9, 9, 207, 22]",True,False,0.0,A_no_overlap
+020.jpg,MRN,MRN: MRN-2024-19732,"[9, 29, 168, 42]",True,False,0.0,A_no_overlap
+020.jpg,HOSPITAL,SARASWATI MEDICAL CENTRE,"[9, 49, 207, 61]",True,False,0.0,A_no_overlap
+020.jpg,DEPARTMENT,DEPT: DIAGNOSTIC IMAGING,"[9, 69, 208, 81]",False,False,0.0,A_no_overlap
+021.jpg,PATIENT_ID,PATIENT ID: SUPMS-P55695,"[164, 355, 362, 368]",True,False,0.0,A_no_overlap
+021.jpg,MRN,MRN: MRN-2022-20135,"[164, 375, 323, 388]",False,False,0.0,A_no_overlap
+021.jpg,HOSPITAL,CIVIC HEALTH CENTRE,"[164, 395, 322, 407]",True,False,0.0,A_no_overlap
+021.jpg,DEPARTMENT,DEPT: RADIOLOGY,"[164, 415, 291, 427]",False,False,0.0,A_no_overlap
+022.jpg,PATIENT_ID,PATIENT ID: SUPMS-P62869,"[164, 355, 362, 368]",True,False,0.0,A_no_overlap
+022.jpg,MRN,MRN: MRN-2025-10714,"[164, 375, 323, 388]",True,False,0.0,A_no_overlap
+022.jpg,HOSPITAL,CITYCARE GENERAL HOSPITAL,"[164, 395, 371, 407]",True,False,0.0,A_no_overlap
+022.jpg,DEPARTMENT,DEPT: INTERVENTIONAL RADIOLOGY,"[164, 415, 373, 427]",True,False,0.0,A_no_overlap
+023.jpg,PATIENT_NAME,PATIENT: NIKHIL KAPOOR,"[228, 223, 373, 235]",True,True,0.116,B_fracture_overlap
+023.jpg,DOB,DOB: 23/03/1982,"[228, 243, 354, 259]",True,True,0.0563,B_fracture_overlap
+023.jpg,DOCTOR_NAME,REF: DR. D. BHAT,"[228, 263, 362, 275]",True,False,0.0,B_fracture_overlap
+023.jpg,EXAMINATION_NUMBER,EXAM: EX-2770,"[228, 283, 338, 296]",True,False,0.0,B_fracture_overlap
+025.jpg,PATIENT_NAME,PATIENT: USHA VERMA,"[597, 394, 927, 414]",False,True,0.0204,B_fracture_overlap
+025.jpg,DOCTOR_NAME,REF: DR. V. REDDY,"[597, 428, 892, 448]",False,True,0.0244,B_fracture_overlap
+025.jpg,STUDY_DATE,DATE: 04/09/2025,"[597, 462, 875, 489]",False,True,0.031,B_fracture_overlap
+026.jpg,PATIENT_NAME,PATIENT: NEHA CHOPRA,"[9, 335, 176, 347]",True,False,0.0,A_no_overlap
+026.jpg,PATIENT_ID,PATIENT ID: SUPMS-P29618,"[9, 355, 207, 368]",True,False,0.0,A_no_overlap
+026.jpg,DOB,DOB: 09/12/1970,"[9, 375, 135, 391]",True,False,0.0,A_no_overlap
+026.jpg,HOSPITAL,LOTUS MULTISPECIALITY HOSPITAL,"[9, 395, 256, 407]",True,False,0.0,A_no_overlap
+026.jpg,STUDY_DATE,DATE: 18/10/2026,"[9, 415, 143, 431]",True,False,0.0,A_no_overlap
+027.jpg,PATIENT_NAME,PATIENT: VINOD CHAUHAN,"[177, 219, 360, 231]",True,True,0.0663,B_fracture_overlap
+027.jpg,MRN,MRN: MRN-2024-27260,"[177, 239, 336, 252]",True,True,0.1348,B_fracture_overlap
+027.jpg,HOSPITAL,CITYCARE GENERAL HOSPITAL,"[177, 259, 373, 271]",True,True,0.115,B_fracture_overlap
+028.jpg,MRN,MRN: MRN-2026-84659,"[164, 355, 323, 368]",True,False,0.0,A_no_overlap
+028.jpg,STUDY_DATE,DATE: 08/04/2026,"[164, 375, 298, 391]",True,False,0.0,A_no_overlap
+028.jpg,DEPARTMENT,DEPT: MUSCULOSKELETAL IMAGING,"[164, 395, 373, 407]",True,False,0.0,A_no_overlap
+028.jpg,EXAMINATION_NUMBER,EXAM: EX-6056,"[164, 415, 274, 428]",True,False,0.0,A_no_overlap
+029.jpg,PATIENT_NAME,PATIENT: DEEPAK IYER,"[84, 168, 251, 180]",False,True,0.0533,B_fracture_overlap
+029.jpg,PATIENT_ID,PATIENT ID: SUPMS-P25303,"[84, 188, 282, 201]",True,False,0.0,B_fracture_overlap
+029.jpg,HOSPITAL,APOLLO MEDICAL CENTRE,"[84, 208, 259, 220]",False,False,0.0,B_fracture_overlap
+029.jpg,DOCTOR_NAME,REF: DR. S. PATEL,"[84, 228, 227, 240]",False,False,0.0,B_fracture_overlap
+030.jpg,PATIENT_ID,PATIENT ID: SUPMS-P53217,"[164, 375, 362, 388]",True,False,0.0,A_no_overlap
+030.jpg,DOB,DOB: 26/12/1988,"[164, 395, 290, 411]",True,False,0.0,A_no_overlap
+030.jpg,ACCESSION_NUMBER,ACC: ACC-25-70758,"[164, 415, 307, 428]",True,False,0.0,A_no_overlap
+031.jpg,PATIENT_NAME,PATIENT: DEEPAK RAO,"[164, 355, 323, 367]",False,False,0.0,A_no_overlap
+031.jpg,PATIENT_ID,PATIENT ID: SUPMS-P54380,"[164, 375, 362, 388]",True,False,0.0,A_no_overlap
+031.jpg,HOSPITAL,CIVIC HEALTH CENTRE,"[164, 395, 322, 407]",True,False,0.0,A_no_overlap
+031.jpg,DOCTOR_NAME,REF: DR. Y. YADAV,"[164, 415, 307, 427]",True,False,0.0,A_no_overlap
+032.jpg,PATIENT_NAME,PATIENT: KIRAN PATEL,"[9, 9, 176, 21]",True,False,0.0,A_no_overlap
+032.jpg,PATIENT_ID,PATIENT ID: SUPMS-P16334,"[9, 29, 207, 42]",True,False,0.0,A_no_overlap
+032.jpg,DOB,DOB: 17/06/1999,"[9, 49, 135, 65]",True,False,0.0,A_no_overlap
+033.jpg,PATIENT_NAME,PATIENT: SUBHASH DAS,"[245, 294, 411, 306]",True,False,0.0,A_no_overlap
+033.jpg,MRN,MRN: MRN-2024-17262,"[245, 314, 404, 327]",True,False,0.0,A_no_overlap
+033.jpg,HOSPITAL,NATIONAL MEDICAL INSTITUTE,"[245, 334, 454, 346]",True,False,0.0,A_no_overlap
+034.jpg,PATIENT_NAME,PATIENT: SURESH MENON,"[9, 9, 184, 21]",True,False,0.0,A_no_overlap
+034.jpg,HOSPITAL,SUNRISEHEALTH HOSPITAL,"[9, 29, 192, 41]",True,False,0.0,A_no_overlap
+034.jpg,STUDY_DATE,DATE: 17/04/2026,"[9, 49, 143, 65]",True,False,0.0,A_no_overlap
+034.jpg,DOCTOR_NAME,REF: DR. S. PATEL,"[9, 69, 152, 81]",True,False,0.0,A_no_overlap
+035.jpg,PATIENT_NAME,PATIENT: VARSHA DUBEY,"[9, 9, 184, 21]",True,False,0.0,A_no_overlap
+035.jpg,PATIENT_ID,PATIENT ID: SUPMS-P53969,"[9, 29, 207, 42]",True,False,0.0,A_no_overlap
+035.jpg,DOB,DOB: 18/01/1981,"[9, 49, 135, 65]",True,False,0.0,A_no_overlap
+035.jpg,HOSPITAL,APOLLO MEDICAL CENTRE,"[9, 69, 184, 81]",True,False,0.0,A_no_overlap
+035.jpg,STUDY_DATE,DATE: 20/11/2023,"[9, 89, 143, 105]",True,False,0.0,A_no_overlap
+036.jpg,PATIENT_NAME,PATIENT: GEETA DAS,"[164, 9, 314, 21]",True,False,0.0,A_no_overlap
+036.jpg,PATIENT_ID,PATIENT ID: SUPMS-P90966,"[164, 29, 362, 42]",True,False,0.0,A_no_overlap
+036.jpg,MRN,MRN: MRN-2024-77355,"[164, 49, 323, 62]",True,False,0.0,A_no_overlap
+036.jpg,DOB,DOB: 08/01/1959,"[164, 69, 290, 85]",True,False,0.0,A_no_overlap
+036.jpg,ACCESSION_NUMBER,ACC: ACC-26-54043,"[164, 89, 307, 102]",False,False,0.0,A_no_overlap
+037.jpg,PATIENT_ID,PATIENT ID: SUPMS-P67066,"[9, 375, 207, 388]",True,False,0.0,A_no_overlap
+037.jpg,DOB,DOB: 23/10/1986,"[9, 395, 135, 411]",True,False,0.0,A_no_overlap
+037.jpg,ACCESSION_NUMBER,ACC: ACC-26-62488,"[9, 415, 152, 428]",True,False,0.0,A_no_overlap
+038.jpg,PATIENT_NAME,PATIENT: AKASH JOSHI,"[9, 9, 175, 21]",True,False,0.0,A_no_overlap
+038.jpg,DOCTOR_NAME,REF: DR. N. IYER,"[9, 29, 144, 41]",True,False,0.0,A_no_overlap
+038.jpg,STUDY_DATE,DATE: 17/03/2022,"[9, 49, 143, 65]",True,False,0.0,A_no_overlap
+039.jpg,PATIENT_ID,PATIENT ID: SUPMS-P75725,"[164, 375, 362, 388]",True,False,0.0,A_no_overlap
+039.jpg,DOB,DOB: 09/03/1977,"[164, 395, 290, 411]",True,False,0.0,A_no_overlap
+039.jpg,ACCESSION_NUMBER,ACC: ACC-22-66287,"[164, 415, 307, 428]",True,False,0.0,A_no_overlap
+040.jpg,PATIENT_NAME,PATIENT: VIVEK PATEL,"[9, 375, 176, 387]",True,False,0.0,A_no_overlap
+040.jpg,DOCTOR_NAME,REF: DR. V. REDDY,"[9, 395, 152, 407]",False,False,0.0,A_no_overlap
+040.jpg,STUDY_DATE,DATE: 24/05/2023,"[9, 415, 143, 431]",True,False,0.0,A_no_overlap
+041.jpg,MRN,MRN: MRN-2022-84650,"[207, 267, 366, 280]",False,True,0.099,B_fracture_overlap
+041.jpg,STUDY_DATE,DATE: 05/05/2023,"[207, 287, 341, 303]",True,False,0.0,B_fracture_overlap
+041.jpg,DEPARTMENT,DEPT: INTERVENTIONAL RADIOLOGY,"[207, 307, 373, 319]",True,False,0.0,B_fracture_overlap
+041.jpg,EXAMINATION_NUMBER,EXAM: EX-9942,"[207, 327, 317, 340]",False,False,0.0,B_fracture_overlap
+042.jpg,MRN,MRN: MRN-2021-61238,"[164, 355, 323, 368]",True,False,0.0,A_no_overlap
+042.jpg,STUDY_DATE,DATE: 09/04/2022,"[164, 375, 298, 391]",True,False,0.0,A_no_overlap
+042.jpg,DEPARTMENT,DEPT: TRAUMA & ORTHO,"[164, 395, 331, 407]",True,False,0.0,A_no_overlap
+042.jpg,EXAMINATION_NUMBER,EXAM: EX-1262,"[164, 415, 274, 428]",True,False,0.0,A_no_overlap
+043.jpg,PATIENT_NAME,PATIENT: LATA DUTTA,"[9, 294, 168, 306]",False,False,0.0,A_no_overlap
+043.jpg,PATIENT_ID,PATIENT ID: SUPMS-P13403,"[9, 314, 207, 327]",False,False,0.0,A_no_overlap
+043.jpg,DOB,DOB: 16/09/1971,"[9, 334, 135, 350]",False,False,0.0,A_no_overlap
+044.jpg,PATIENT_NAME,PATIENT: RAJEEV DAS,"[9, 9, 167, 21]",False,False,0.0,A_no_overlap
+044.jpg,HOSPITAL,CITYCARE GENERAL HOSPITAL,"[9, 29, 216, 41]",True,False,0.0,A_no_overlap
+044.jpg,STUDY_DATE,DATE: 09/05/2023,"[9, 49, 143, 65]",True,False,0.0,A_no_overlap
+044.jpg,DOCTOR_NAME,REF: DR. P. GUPTA,"[9, 69, 152, 81]",True,False,0.0,A_no_overlap
+045.jpg,PATIENT_NAME,PATIENT: BINDU AGARWAL,"[9, 335, 192, 347]",True,False,0.0,A_no_overlap
+045.jpg,PATIENT_ID,PATIENT ID: SUPMS-P33006,"[9, 355, 207, 368]",True,False,0.0,A_no_overlap
+045.jpg,DOB,DOB: 19/08/1995,"[9, 375, 135, 391]",True,False,0.0,A_no_overlap
+045.jpg,DOCTOR_NAME,REF: DR. V. REDDY,"[9, 395, 152, 407]",False,False,0.0,A_no_overlap
+045.jpg,DEPARTMENT,DEPT: TRAUMA & ORTHO,"[9, 415, 176, 427]",True,False,0.0,A_no_overlap
+046.jpg,PATIENT_ID,PATIENT ID: SUPMS-P45396,"[9, 294, 207, 307]",False,False,0.0,A_no_overlap
+046.jpg,DOB,DOB: 05/09/2003,"[9, 314, 135, 330]",True,False,0.0,A_no_overlap
+046.jpg,ACCESSION_NUMBER,ACC: ACC-21-63177,"[9, 334, 152, 347]",True,False,0.0,A_no_overlap
+047.jpg,PATIENT_NAME,PATIENT: PRIYA PILLAI,"[9, 355, 183, 367]",True,False,0.0,A_no_overlap
+047.jpg,PATIENT_ID,PATIENT ID: SUPMS-P53843,"[9, 375, 207, 388]",True,False,0.0,A_no_overlap
+047.jpg,HOSPITAL,UNITY HOSPITAL & RESEARCH,"[9, 395, 216, 407]",True,False,0.0,A_no_overlap
+047.jpg,DOCTOR_NAME,REF: DR. V. REDDY,"[9, 415, 152, 427]",False,False,0.0,A_no_overlap
+048.jpg,PATIENT_NAME,PATIENT: RAJEEV KUMAR,"[253, 410, 373, 422]",False,True,0.102,B_fracture_overlap
+048.jpg,PATIENT_ID,PATIENT ID: SUPMS-P36908,"[253, 430, 373, 443]",False,True,0.1599,B_fracture_overlap
+048.jpg,DOB,DOB: 20/10/1963,"[253, 450, 373, 454]",False,False,0.0,B_fracture_overlap
+048.jpg,HOSPITAL,KRISHNA MEDICAL COLLEGE HOSPITAL,"[253, 470, 373, 454]",False,False,0.0,B_fracture_overlap
+048.jpg,STUDY_DATE,DATE: 19/01/2022,"[253, 490, 373, 454]",False,False,0.0,B_fracture_overlap
+049.jpg,PATIENT_NAME,PATIENT: DEEPAK RATHI,"[164, 375, 338, 387]",True,False,0.0,A_no_overlap
+049.jpg,PATIENT_ID,PATIENT ID: SUPMS-P67784,"[164, 395, 362, 408]",True,False,0.0,A_no_overlap
+049.jpg,DOB,DOB: 14/01/1959,"[164, 415, 290, 431]",True,False,0.0,A_no_overlap
+050.jpg,PATIENT_NAME,PATIENT: SUBHASH BHAT,"[716, 1731, 1079, 1751]",False,True,0.0216,B_fracture_overlap
+050.jpg,PATIENT_ID,PATIENT ID: SUPMS-P85014,"[716, 1765, 1130, 1786]",False,True,0.0348,B_fracture_overlap
+050.jpg,DOB,DOB: 13/06/1983,"[716, 1799, 977, 1826]",False,True,0.0278,B_fracture_overlap
+050.jpg,DOCTOR_NAME,REF: DR. V. REDDY,"[716, 1833, 1011, 1853]",False,True,0.0234,B_fracture_overlap
+050.jpg,DEPARTMENT,DEPT: MUSCULOSKELETAL IMAGING,"[716, 1867, 1215, 1887]",False,True,0.0401,B_fracture_overlap
+051.jpg,HOSPITAL,SARASWATI MEDICAL CENTRE,"[164, 9, 362, 21]",False,False,0.0,A_no_overlap
+051.jpg,DEPARTMENT,DEPT: ORTHOPAEDICS,"[164, 29, 314, 41]",False,False,0.0,A_no_overlap
+051.jpg,STUDY_DATE,DATE: 11/04/2026,"[164, 49, 298, 65]",True,False,0.0,A_no_overlap
+051.jpg,EXAMINATION_NUMBER,EXAM: EX-2027,"[164, 69, 274, 82]",True,False,0.0,A_no_overlap
+052.jpg,PATIENT_NAME,PATIENT: AMIT IYER,"[164, 9, 315, 21]",False,False,0.0,A_no_overlap
+052.jpg,PATIENT_ID,PATIENT ID: SUPMS-P99326,"[164, 29, 362, 42]",True,False,0.0,A_no_overlap
+052.jpg,DOB,DOB: 03/09/1953,"[164, 49, 290, 65]",True,False,0.0,A_no_overlap
+053.jpg,PATIENT_NAME,PATIENT: RAHUL REDDY,"[9, 375, 176, 387]",True,False,0.0,A_no_overlap
+053.jpg,DOCTOR_NAME,REF: DR. A. MEHTA,"[9, 395, 152, 407]",True,False,0.0,A_no_overlap
+053.jpg,STUDY_DATE,DATE: 03/03/2024,"[9, 415, 143, 431]",True,False,0.0,A_no_overlap
+054.jpg,MRN,MRN: MRN-2021-96092,"[9, 274, 168, 287]",False,False,0.0,A_no_overlap
+054.jpg,STUDY_DATE,DATE: 18/03/2024,"[9, 294, 143, 310]",False,False,0.0,A_no_overlap
+054.jpg,DEPARTMENT,DEPT: MUSCULOSKELETAL IMAGING,"[9, 314, 248, 326]",False,False,0.0,A_no_overlap
+054.jpg,EXAMINATION_NUMBER,EXAM: EX-8292,"[9, 334, 119, 347]",False,False,0.0,A_no_overlap
+055.jpg,PATIENT_NAME,PATIENT: PRIYA TIWARI,"[190, 152, 364, 164]",True,True,0.0687,B_fracture_overlap
+055.jpg,PATIENT_ID,PATIENT ID: SUPMS-P52664,"[190, 172, 373, 185]",True,False,0.0,B_fracture_overlap
+055.jpg,DOB,DOB: 16/11/1951,"[190, 192, 316, 208]",True,False,0.0,B_fracture_overlap
+056.jpg,PATIENT_ID,PATIENT ID: SUPMS-P31802,"[245, 294, 443, 307]",False,False,0.0,A_no_overlap
+056.jpg,DOB,DOB: 10/02/1993,"[245, 314, 371, 330]",False,False,0.0,A_no_overlap
+056.jpg,ACCESSION_NUMBER,ACC: ACC-25-10101,"[245, 334, 388, 347]",False,False,0.0,A_no_overlap
+057.jpg,MRN,MRN: MRN-2020-30931,"[9, 355, 168, 368]",True,False,0.0,A_no_overlap
+057.jpg,DOB,DOB: 15/12/1977,"[9, 375, 135, 391]",True,False,0.0,A_no_overlap
+057.jpg,ACCESSION_NUMBER,ACC: ACC-22-30002,"[9, 395, 152, 408]",True,False,0.0,A_no_overlap
+057.jpg,DEPARTMENT,DEPT: EMERGENCY MEDICINE,"[9, 415, 207, 427]",True,False,0.0,A_no_overlap
+058.jpg,PATIENT_ID,PATIENT ID: SUPMS-P69094,"[9, 9, 207, 22]",True,False,0.0,A_no_overlap
+058.jpg,DOB,DOB: 24/05/1988,"[9, 29, 135, 45]",True,False,0.0,A_no_overlap
+058.jpg,ACCESSION_NUMBER,ACC: ACC-26-10342,"[9, 49, 152, 62]",True,False,0.0,A_no_overlap
+059.jpg,PATIENT_NAME,PATIENT: AARAV SRIVASTAVA,"[164, 335, 371, 347]",True,False,0.0,A_no_overlap
+059.jpg,PATIENT_ID,PATIENT ID: SUPMS-P82051,"[164, 355, 362, 368]",True,False,0.0,A_no_overlap
+059.jpg,DOB,DOB: 12/07/1993,"[164, 375, 290, 391]",True,False,0.0,A_no_overlap
+059.jpg,HOSPITAL,NATIONAL MEDICAL INSTITUTE,"[164, 395, 373, 407]",True,False,0.0,A_no_overlap
+059.jpg,STUDY_DATE,DATE: 27/10/2023,"[164, 415, 298, 431]",True,False,0.0,A_no_overlap
+060.jpg,PATIENT_NAME,PATIENT: LATA MENON,"[9, 335, 168, 347]",True,False,0.0,A_no_overlap
+060.jpg,PATIENT_ID,PATIENT ID: SUPMS-P27514,"[9, 355, 207, 368]",True,False,0.0,A_no_overlap
+060.jpg,DOB,DOB: 15/03/1956,"[9, 375, 135, 391]",True,False,0.0,A_no_overlap
+060.jpg,DOCTOR_NAME,REF: DR. T. VERMA,"[9, 395, 152, 407]",True,False,0.0,A_no_overlap
+060.jpg,DEPARTMENT,DEPT: MUSCULOSKELETAL IMAGING,"[9, 415, 248, 427]",True,False,0.0,A_no_overlap
+061.jpg,HOSPITAL,NATIONAL MEDICAL INSTITUTE,"[87, 118, 302, 130]",False,True,0.0779,B_fracture_overlap
+061.jpg,DEPARTMENT,DEPT: RADIOLOGY,"[87, 138, 214, 150]",False,True,0.1003,B_fracture_overlap
+061.jpg,STUDY_DATE,DATE: 22/10/2024,"[87, 158, 221, 174]",False,False,0.0,B_fracture_overlap
+061.jpg,EXAMINATION_NUMBER,EXAM: EX-5454,"[87, 178, 197, 191]",True,False,0.0,B_fracture_overlap
+062.jpg,PATIENT_NAME,PATIENT: SNEHA GUPTA,"[164, 335, 331, 347]",True,False,0.0,A_no_overlap
+062.jpg,PATIENT_ID,PATIENT ID: SUPMS-P42828,"[164, 355, 362, 368]",True,False,0.0,A_no_overlap
+062.jpg,DOB,DOB: 02/04/1997,"[164, 375, 290, 391]",True,False,0.0,A_no_overlap
+062.jpg,HOSPITAL,UNITY HOSPITAL & RESEARCH,"[164, 395, 371, 407]",True,False,0.0,A_no_overlap
+062.jpg,STUDY_DATE,DATE: 04/01/2022,"[164, 415, 298, 431]",True,False,0.0,A_no_overlap
+063.jpg,PATIENT_ID,PATIENT ID: SUPMS-P64145,"[147, 185, 345, 198]",True,True,0.0884,B_fracture_overlap
+063.jpg,MRN,MRN: MRN-2021-67678,"[147, 205, 306, 218]",False,True,0.135,B_fracture_overlap
+063.jpg,HOSPITAL,APOLLO MEDICAL CENTRE,"[147, 225, 322, 237]",False,False,0.0,B_fracture_overlap
+063.jpg,DEPARTMENT,DEPT: INTERVENTIONAL RADIOLOGY,"[147, 245, 373, 257]",False,False,0.0,B_fracture_overlap
+064.jpg,PATIENT_NAME,PATIENT: MEERA SHUKLA,"[175, 118, 350, 130]",False,True,0.0654,B_fracture_overlap
+064.jpg,PATIENT_ID,PATIENT ID: SUPMS-P89818,"[175, 138, 373, 151]",False,True,0.0857,B_fracture_overlap
+064.jpg,MRN,MRN: MRN-2021-55961,"[175, 158, 334, 171]",False,True,0.0072,B_fracture_overlap
+064.jpg,DOB,DOB: 27/04/1964,"[175, 178, 301, 194]",False,False,0.0,B_fracture_overlap
+064.jpg,ACCESSION_NUMBER,ACC: ACC-25-20733,"[175, 198, 318, 211]",False,False,0.0,B_fracture_overlap
+065.jpg,PATIENT_NAME,PATIENT: KAMAL KRISHNAN,"[220, 209, 373, 221]",True,True,0.0931,B_fracture_overlap
+065.jpg,PATIENT_ID,PATIENT ID: SUPMS-P78920,"[220, 229, 373, 242]",True,True,0.1011,B_fracture_overlap
+065.jpg,DOB,DOB: 28/07/1971,"[220, 249, 346, 265]",True,False,0.0,B_fracture_overlap
+065.jpg,DOCTOR_NAME,REF: DR. B. SINGH,"[220, 269, 363, 281]",True,False,0.0,B_fracture_overlap
+065.jpg,DEPARTMENT,DEPT: DIAGNOSTIC IMAGING,"[220, 289, 373, 301]",True,False,0.0,B_fracture_overlap
+066.jpg,PATIENT_NAME,PATIENT: KIRAN MAURYA,"[134, 166, 309, 178]",True,True,0.0591,B_fracture_overlap
+066.jpg,PATIENT_ID,PATIENT ID: SUPMS-P23583,"[134, 186, 332, 199]",True,True,0.1045,B_fracture_overlap
+066.jpg,DOB,DOB: 03/02/1969,"[134, 206, 260, 222]",True,True,0.149,B_fracture_overlap
+066.jpg,HOSPITAL,CARE PLUS HOSPITAL,"[134, 226, 285, 238]",True,True,0.1129,B_fracture_overlap
+066.jpg,STUDY_DATE,DATE: 24/06/2022,"[134, 246, 268, 262]",True,False,0.0,B_fracture_overlap
+067.jpg,PATIENT_ID,PATIENT ID: SUPMS-P16620,"[9, 9, 207, 22]",True,False,0.0,A_no_overlap
+067.jpg,MRN,MRN: MRN-2021-34091,"[9, 29, 168, 42]",True,False,0.0,A_no_overlap
+067.jpg,HOSPITAL,PREMIER DIAGNOSTICS,"[9, 49, 167, 61]",True,False,0.0,A_no_overlap
+067.jpg,DEPARTMENT,DEPT: INTERVENTIONAL RADIOLOGY,"[9, 69, 256, 81]",True,False,0.0,A_no_overlap
+068.jpg,PATIENT_NAME,PATIENT: PUSHPA RAJPUT,"[9, 375, 191, 387]",True,False,0.0,A_no_overlap
+068.jpg,MRN,MRN: MRN-2021-46086,"[9, 395, 168, 408]",True,False,0.0,A_no_overlap
+068.jpg,HOSPITAL,METRO HEALTHCARE HOSPITAL,"[9, 415, 217, 427]",False,False,0.0,A_no_overlap
+069.jpg,MRN,MRN: MRN-2024-75418,"[245, 274, 404, 287]",True,False,0.0,A_no_overlap
+069.jpg,STUDY_DATE,DATE: 24/04/2026,"[245, 294, 379, 310]",True,False,0.0,A_no_overlap
+069.jpg,DEPARTMENT,DEPT: MUSCULOSKELETAL IMAGING,"[245, 314, 454, 326]",False,False,0.0,A_no_overlap
+069.jpg,EXAMINATION_NUMBER,EXAM: EX-8494,"[245, 334, 355, 347]",False,False,0.0,A_no_overlap
+070.jpg,MRN,MRN: MRN-2025-34294,"[9, 355, 168, 368]",True,False,0.0,A_no_overlap
+070.jpg,STUDY_DATE,DATE: 20/02/2023,"[9, 375, 143, 391]",True,False,0.0,A_no_overlap
+070.jpg,DEPARTMENT,DEPT: DIAGNOSTIC IMAGING,"[9, 395, 208, 407]",True,False,0.0,A_no_overlap
+070.jpg,EXAMINATION_NUMBER,EXAM: EX-5560,"[9, 415, 119, 428]",True,False,0.0,A_no_overlap
+071.jpg,PATIENT_NAME,PATIENT: MADHURI RAWAT,"[9, 274, 191, 286]",True,False,0.0,A_no_overlap
+071.jpg,HOSPITAL,CITYCARE GENERAL HOSPITAL,"[9, 294, 216, 306]",True,False,0.0,A_no_overlap
+071.jpg,STUDY_DATE,DATE: 21/11/2022,"[9, 314, 143, 330]",True,False,0.0,A_no_overlap
+071.jpg,DOCTOR_NAME,REF: DR. V. REDDY,"[9, 334, 152, 346]",True,False,0.0,A_no_overlap
+072.jpg,PATIENT_NAME,PATIENT: KIRAN SINGH,"[9, 335, 176, 347]",True,False,0.0,A_no_overlap
+072.jpg,PATIENT_ID,PATIENT ID: SUPMS-P18927,"[9, 355, 207, 368]",True,False,0.0,A_no_overlap
+072.jpg,DOB,DOB: 07/05/1983,"[9, 375, 135, 391]",True,False,0.0,A_no_overlap
+072.jpg,HOSPITAL,NATIONAL MEDICAL INSTITUTE,"[9, 395, 224, 407]",False,False,0.0,A_no_overlap
+072.jpg,STUDY_DATE,DATE: 14/10/2022,"[9, 415, 143, 431]",True,False,0.0,A_no_overlap
+073.jpg,PATIENT_NAME,PATIENT: SAROJ CHATTERJEE,"[164, 375, 370, 387]",False,False,0.0,A_no_overlap
+073.jpg,PATIENT_ID,PATIENT ID: SUPMS-P29572,"[164, 395, 362, 408]",True,False,0.0,A_no_overlap
+073.jpg,DOB,DOB: 11/03/1963,"[164, 415, 290, 431]",True,False,0.0,A_no_overlap
+074.jpg,PATIENT_ID,PATIENT ID: SUPMS-P13494,"[9, 9, 207, 22]",True,False,0.0,A_no_overlap
+074.jpg,MRN,MRN: MRN-2023-60490,"[9, 29, 168, 42]",True,False,0.0,A_no_overlap
+074.jpg,HOSPITAL,RELIABLE HEALTH SERVICES,"[9, 49, 207, 61]",True,False,0.0,A_no_overlap
+074.jpg,DEPARTMENT,DEPT: ORTHOPAEDICS,"[9, 69, 159, 81]",True,False,0.0,A_no_overlap
+075.jpg,PATIENT_NAME,PATIENT: AARAV RAWAT,"[1479, 57, 1825, 77]",True,False,0.0,A_no_overlap
+075.jpg,PATIENT_ID,PATIENT ID: SUPMS-P85990,"[1479, 91, 1893, 112]",False,False,0.0,A_no_overlap
+075.jpg,HOSPITAL,KRISHNA MEDICAL COLLEGE HOSPITAL,"[1479, 125, 2029, 145]",True,False,0.0,A_no_overlap
+075.jpg,DOCTOR_NAME,REF: DR. H. MISHRA,"[1479, 159, 1792, 179]",True,False,0.0,A_no_overlap
+076.jpg,PATIENT_ID,PATIENT ID: SUPMS-P70977,"[245, 294, 443, 307]",False,False,0.0,A_no_overlap
+076.jpg,DOB,DOB: 13/12/1951,"[245, 314, 371, 330]",False,False,0.0,A_no_overlap
+076.jpg,ACCESSION_NUMBER,ACC: ACC-26-31283,"[245, 334, 388, 347]",False,False,0.0,A_no_overlap
+077.jpg,PATIENT_NAME,PATIENT: VINOD MISHRA,"[1479, 2643, 1843, 2663]",True,False,0.0,A_no_overlap
+077.jpg,PATIENT_ID,PATIENT ID: SUPMS-P59531,"[1479, 2677, 1893, 2698]",True,False,0.0,A_no_overlap
+077.jpg,DOB,DOB: 23/07/1952,"[1479, 2711, 1740, 2738]",True,False,0.0,A_no_overlap
+077.jpg,HOSPITAL,UNITY HOSPITAL & RESEARCH,"[1479, 2745, 1910, 2765]",True,False,0.0,A_no_overlap
+077.jpg,STUDY_DATE,DATE: 09/09/2022,"[1479, 2779, 1757, 2806]",True,False,0.0,A_no_overlap
+078.jpg,PATIENT_ID,PATIENT ID: SUPMS-P10753,"[262, 161, 373, 174]",True,True,0.1248,B_fracture_overlap
+078.jpg,HOSPITAL,LOTUS MULTISPECIALITY HOSPITAL,"[262, 181, 373, 193]",True,True,0.017,B_fracture_overlap
+078.jpg,ACCESSION_NUMBER,ACC: ACC-22-70110,"[262, 201, 373, 214]",False,False,0.0,B_fracture_overlap
+078.jpg,STUDY_DATE,DATE: 18/09/2022,"[262, 221, 373, 237]",True,False,0.0,B_fracture_overlap
+079.jpg,PATIENT_ID,PATIENT ID: SUPMS-P51957,"[164, 355, 362, 368]",True,False,0.0,A_no_overlap
+079.jpg,HOSPITAL,NATIONAL MEDICAL INSTITUTE,"[164, 375, 373, 387]",True,False,0.0,A_no_overlap
+079.jpg,ACCESSION_NUMBER,ACC: ACC-26-55670,"[164, 395, 307, 408]",True,False,0.0,A_no_overlap
+079.jpg,STUDY_DATE,DATE: 24/09/2022,"[164, 415, 298, 431]",True,False,0.0,A_no_overlap
+080.jpg,PATIENT_NAME,PATIENT: SANJAY SHUKLA,"[165, 263, 348, 275]",False,True,0.0694,B_fracture_overlap
+080.jpg,PATIENT_ID,PATIENT ID: SUPMS-P73323,"[165, 283, 363, 296]",True,True,0.0424,B_fracture_overlap
+080.jpg,DOB,DOB: 23/07/1970,"[165, 303, 291, 319]",False,False,0.0,B_fracture_overlap
+080.jpg,DOCTOR_NAME,REF: DR. V. REDDY,"[165, 323, 308, 335]",False,False,0.0,B_fracture_overlap
+080.jpg,DEPARTMENT,DEPT: MUSCULOSKELETAL IMAGING,"[165, 343, 373, 355]",False,False,0.0,B_fracture_overlap
+081.jpg,PATIENT_NAME,PATIENT: SUDHA RATHI,"[164, 9, 330, 21]",True,False,0.0,A_no_overlap
+081.jpg,DOCTOR_NAME,REF: DR. F. KAPOOR,"[164, 29, 315, 41]",True,False,0.0,A_no_overlap
+081.jpg,STUDY_DATE,DATE: 13/02/2026,"[164, 49, 298, 65]",True,False,0.0,A_no_overlap
+082.jpg,PATIENT_NAME,PATIENT: REKHA MENON,"[9, 355, 176, 367]",True,False,0.0,A_no_overlap
+082.jpg,DOB,DOB: 06/05/1997,"[9, 375, 135, 391]",True,False,0.0,A_no_overlap
+082.jpg,DOCTOR_NAME,REF: DR. R. SHARMA,"[9, 395, 160, 407]",True,False,0.0,A_no_overlap
+082.jpg,EXAMINATION_NUMBER,EXAM: EX-1892,"[9, 415, 119, 428]",False,False,0.0,A_no_overlap
+083.jpg,PATIENT_NAME,PATIENT: SHALINI BHAT,"[9, 375, 183, 387]",True,False,0.0,A_no_overlap
+083.jpg,PATIENT_ID,PATIENT ID: SUPMS-P47421,"[9, 395, 207, 408]",True,False,0.0,A_no_overlap
+083.jpg,DOB,DOB: 17/04/1954,"[9, 415, 135, 431]",True,False,0.0,A_no_overlap
+084.jpg,PATIENT_NAME,PATIENT: VIVEK VERMA,"[164, 9, 331, 21]",True,False,0.0,A_no_overlap
+084.jpg,PATIENT_ID,PATIENT ID: SUPMS-P22405,"[164, 29, 362, 42]",True,False,0.0,A_no_overlap
+084.jpg,DOB,DOB: 22/05/2004,"[164, 49, 290, 65]",True,False,0.0,A_no_overlap
+085.jpg,PATIENT_ID,PATIENT ID: SUPMS-P37760,"[164, 355, 362, 368]",True,False,0.0,A_no_overlap
+085.jpg,MRN,MRN: MRN-2022-31678,"[164, 375, 323, 388]",True,False,0.0,A_no_overlap
+085.jpg,HOSPITAL,KRISHNA MEDICAL COLLEGE HOSPITAL,"[164, 395, 373, 407]",True,False,0.0,A_no_overlap
+085.jpg,DEPARTMENT,DEPT: DIAGNOSTIC IMAGING,"[164, 415, 363, 427]",True,False,0.0,A_no_overlap
+086.jpg,PATIENT_ID,PATIENT ID: SUPMS-P69383,"[164, 371, 314, 381]",False,False,0.0,A_no_overlap
+086.jpg,MRN,MRN: MRN-2023-97898,"[164, 387, 285, 397]",False,False,0.0,A_no_overlap
+086.jpg,HOSPITAL,SUNRISEHEALTH HOSPITAL,"[164, 403, 302, 413]",False,False,0.0,A_no_overlap
+086.jpg,DEPARTMENT,DEPT: ORTHOPAEDICS,"[164, 419, 278, 429]",False,False,0.0,A_no_overlap
+087.jpg,PATIENT_ID,PATIENT ID: SUPMS-P87727,"[164, 9, 314, 19]",False,False,0.0,A_no_overlap
+087.jpg,MRN,MRN: MRN-2024-80474,"[164, 25, 285, 35]",False,False,0.0,A_no_overlap
+087.jpg,HOSPITAL,LIFELINE HOSPITAL,"[164, 41, 272, 51]",False,False,0.0,A_no_overlap
+087.jpg,DEPARTMENT,DEPT: ORTHOPAEDICS,"[164, 57, 278, 67]",False,False,0.0,A_no_overlap
+088.jpg,PATIENT_NAME,PATIENT: SHALINI VERMA,"[220, 129, 359, 139]",True,True,0.0677,B_fracture_overlap
+088.jpg,PATIENT_ID,PATIENT ID: SUPMS-P42506,"[220, 145, 370, 155]",False,True,0.1381,B_fracture_overlap
+088.jpg,DOB,DOB: 10/04/1972,"[220, 161, 316, 173]",False,True,0.1091,B_fracture_overlap
+089.jpg,PATIENT_ID,PATIENT ID: SUPMS-P63054,"[122, 120, 272, 130]",False,True,0.0361,B_fracture_overlap
+089.jpg,DOB,DOB: 15/01/1960,"[122, 136, 218, 148]",False,True,0.0984,B_fracture_overlap
+089.jpg,ACCESSION_NUMBER,ACC: ACC-21-11376,"[122, 152, 231, 162]",False,True,0.0818,B_fracture_overlap
+090.jpg,PATIENT_NAME,PATIENT: SAROJ MENON,"[164, 355, 290, 365]",False,False,0.0,A_no_overlap
+090.jpg,PATIENT_ID,PATIENT ID: SUPMS-P74605,"[164, 371, 314, 381]",False,False,0.0,A_no_overlap
+090.jpg,MRN,MRN: MRN-2022-20688,"[164, 387, 285, 397]",False,False,0.0,A_no_overlap
+090.jpg,DOB,DOB: 27/07/1990,"[164, 403, 260, 415]",False,False,0.0,A_no_overlap
+090.jpg,ACCESSION_NUMBER,ACC: ACC-25-95480,"[164, 419, 273, 429]",False,False,0.0,A_no_overlap
+092.jpg,PATIENT_NAME,PATIENT: POOJA DUBEY,"[164, 355, 290, 365]",False,False,0.0,A_no_overlap
+092.jpg,PATIENT_ID,PATIENT ID: SUPMS-P57761,"[164, 371, 314, 381]",False,False,0.0,A_no_overlap
+092.jpg,DOB,DOB: 07/09/1976,"[164, 387, 260, 399]",False,False,0.0,A_no_overlap
+092.jpg,DOCTOR_NAME,REF: DR. C. BANSAL,"[164, 403, 278, 413]",False,False,0.0,A_no_overlap
+092.jpg,DEPARTMENT,DEPT: MUSCULOSKELETAL IMAGING,"[164, 419, 344, 429]",False,False,0.0,A_no_overlap
+093.jpg,PATIENT_NAME,PATIENT: LEELA CHAUHAN,"[274, 188, 373, 198]",False,True,0.0641,B_fracture_overlap
+093.jpg,PATIENT_ID,PATIENT ID: SUPMS-P72209,"[274, 204, 373, 214]",False,True,0.0779,B_fracture_overlap
+093.jpg,DOB,DOB: 10/11/1957,"[274, 220, 370, 232]",False,False,0.0,B_fracture_overlap
+093.jpg,DOCTOR_NAME,REF: DR. K. NAIR,"[274, 236, 373, 246]",False,False,0.0,B_fracture_overlap
+093.jpg,DEPARTMENT,DEPT: ORTHOPAEDICS,"[274, 252, 373, 262]",False,False,0.0,B_fracture_overlap
+094.jpg,PATIENT_ID,PATIENT ID: SUPMS-P39045,"[145, 99, 295, 109]",False,True,0.0433,B_fracture_overlap
+094.jpg,MRN,MRN: MRN-2026-15987,"[145, 115, 266, 125]",False,True,0.0974,B_fracture_overlap
+094.jpg,HOSPITAL,SUNRISEHEALTH HOSPITAL,"[145, 131, 283, 141]",False,True,0.0932,B_fracture_overlap
+094.jpg,DEPARTMENT,DEPT: RADIOLOGY,"[145, 147, 241, 157]",False,True,0.1042,B_fracture_overlap
+095.jpg,PATIENT_ID,PATIENT ID: SUPMS-P10703,"[161, 166, 311, 176]",False,True,0.0566,B_fracture_overlap
+095.jpg,DOB,DOB: 20/09/1955,"[161, 182, 257, 194]",False,True,0.171,B_fracture_overlap
+095.jpg,ACCESSION_NUMBER,ACC: ACC-24-30741,"[161, 198, 270, 208]",True,True,0.1425,B_fracture_overlap
+096.jpg,PATIENT_NAME,PATIENT: AARAV SHUKLA,"[164, 9, 297, 19]",False,False,0.0,A_no_overlap
+096.jpg,PATIENT_ID,PATIENT ID: SUPMS-P79137,"[164, 25, 314, 35]",False,False,0.0,A_no_overlap
+096.jpg,DOB,DOB: 18/11/1969,"[164, 41, 260, 53]",False,False,0.0,A_no_overlap
+097.jpg,PATIENT_NAME,PATIENT: GANESH DAS,"[9, 290, 129, 300]",False,False,0.0,A_no_overlap
+097.jpg,PATIENT_ID,PATIENT ID: SUPMS-P20140,"[9, 306, 159, 316]",True,False,0.0,A_no_overlap
+097.jpg,HOSPITAL,APOLLO MEDICAL CENTRE,"[9, 322, 142, 332]",True,False,0.0,A_no_overlap
+097.jpg,DOCTOR_NAME,REF: DR. N. IYER,"[9, 338, 112, 348]",True,False,0.0,A_no_overlap
+098.jpg,PATIENT_ID,PATIENT ID: SUPMS-P93693,"[304, 160, 454, 170]",False,True,0.0649,B_fracture_overlap
+098.jpg,DOB,DOB: 14/10/1979,"[304, 176, 400, 188]",True,True,0.1927,B_fracture_overlap
+098.jpg,ACCESSION_NUMBER,ACC: ACC-21-56364,"[304, 192, 413, 202]",False,False,0.0,B_fracture_overlap
+099.jpg,PATIENT_NAME,PATIENT: AARAV ARORA,"[9, 9, 136, 19]",False,False,0.0,A_no_overlap
+099.jpg,PATIENT_ID,PATIENT ID: SUPMS-P53127,"[9, 25, 159, 35]",False,False,0.0,A_no_overlap
+099.jpg,DOB,DOB: 23/03/1989,"[9, 41, 105, 53]",False,False,0.0,A_no_overlap
+099.jpg,DOCTOR_NAME,REF: DR. H. MISHRA,"[9, 57, 124, 67]",False,False,0.0,A_no_overlap
+099.jpg,DEPARTMENT,DEPT: RADIOLOGY,"[9, 73, 105, 83]",False,False,0.0,A_no_overlap
+100.jpg,PATIENT_NAME,PATIENT: ROHAN RAO,"[9, 387, 123, 397]",True,False,0.0,A_no_overlap
+100.jpg,DOCTOR_NAME,REF: DR. A. MEHTA,"[9, 403, 118, 413]",False,False,0.0,A_no_overlap
+100.jpg,STUDY_DATE,DATE: 11/09/2022,"[9, 419, 111, 431]",False,False,0.0,A_no_overlap

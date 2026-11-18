@@ -1,0 +1,2569 @@
+{
+  "results": {
+    "phi_000001": [
+      [
+        "SCAN DATE: 30/01/2027",
+        true
+      ],
+      [
+        "PRIME",
+        false
+      ],
+      [
+        "CLINIC",
+        false
+      ],
+      [
+        "JID: PT-10001",
+        true
+      ],
+      [
+        "oa",
+        false
+      ],
+      [
+        "PATIENT: TEST_KARAN PERSON",
+        true
+      ],
+      [
+        "ee",
+        false
+      ],
+      [
+        "ee",
+        false
+      ],
+      [
+        "@2/1981",
+        false
+      ],
+      [
+        "DOB: 13/",
+        true
+      ]
+    ],
+    "phi_000002": [
+      [
+        "ID: PT-10002",
+        true
+      ],
+      [
+        "DOB: 26/10/1998",
+        true
+      ],
+      [
+        "PATIENT: TEST_TARA SAMPLE",
+        true
+      ],
+      [
+        "SCAN DATE: 14/08/2025",
+        true
+      ]
+    ],
+    "phi_000003": [
+      [
+        "> 23/12/1996",
+        true
+      ],
+      [
+        "we",
+        false
+      ],
+      [
+        "*",
+        false
+      ],
+      [
+        "SCAN DATE: 22/03/2025",
+        true
+      ]
+    ],
+    "phi_000004": [
+      [
+        "SCAN DATE: 01/12/2026",
+        true
+      ],
+      [
+        "ID: PT-10004 2,",
+        true
+      ],
+      [
+        "DOB: 25/06/2011",
+        true
+      ],
+      [
+        "PATIENT: TEST_KARAN SUBJECT bs \\ /",
+        true
+      ]
+    ],
+    "phi_000005": [
+      [
+        "PRIME",
+        false
+      ],
+      [
+        "CLINIC",
+        false
+      ],
+      [
+        "Elbow",
+        false
+      ],
+      [
+        "J.B/V",
+        false
+      ],
+      [
+        "ID: PT-100@5",
+        true
+      ],
+      [
+        "PATIENT: TEST_TARA SUBJECT",
+        true
+      ],
+      [
+        "\u00e9",
+        false
+      ],
+      [
+        "DOB: 15/07/1989",
+        true
+      ]
+    ],
+    "phi_000006": [
+      [
+        "SCAN DATE: 28/11/2026",
+        true
+      ],
+      [
+        "\u00a5",
+        false
+      ],
+      [
+        "06",
+        false
+      ],
+      [
+        "ID: PT-100",
+        true
+      ]
+    ],
+    "phi_000007": [
+      [
+        "DOB: 15/06/2002",
+        true
+      ],
+      [
+        "PATIENT: TEST_TARA SUBJECT",
+        true
+      ],
+      [
+        "ID: PT-10007",
+        true
+      ],
+      [
+        "SCAN DATE: 20/02/2027",
+        true
+      ]
+    ],
+    "phi_000008": [
+      [
+        "DOB: 21/10/1998",
+        true
+      ],
+      [
+        "Shoulder",
+        false
+      ],
+      [
+        "ID: PT-10008",
+        true
+      ]
+    ],
+    "phi_000009": [
+      [
+        "DOB: 24/11/1997",
+        true
+      ],
+      [
+        "PRIME",
+        false
+      ],
+      [
+        "CLINIC",
+        false
+      ],
+      [
+        "Forearm",
+        false
+      ],
+      [
+        "B/V",
+        false
+      ],
+      [
+        "TEST_",
+        false
+      ],
+      [
+        "TARA",
+        false
+      ],
+      [
+        "SUBJECT",
+        false
+      ],
+      [
+        "PATIENT:",
+        true
+      ],
+      [
+        "MISCAN DATE: 19/11/2026",
+        true
+      ]
+    ],
+    "phi_000010": [
+      [
+        "DOB: 23/01/2003",
+        true
+      ],
+      [
+        "ID: PT-10010",
+        true
+      ],
+      [
+        "SCAN DATE: 01/09/2025",
+        true
+      ],
+      [
+        "f",
+        false
+      ],
+      [
+        "PATIENT: TEST_KAVYA PERSON",
+        true
+      ]
+    ],
+    "phi_000011": [
+      [
+        "DOB: 20/09/1982",
+        true
+      ],
+      [
+        "PATIENT: TEST_KARAN PERSON",
+        true
+      ],
+      [
+        "ID: PT-10011",
+        true
+      ],
+      [
+        "SCAN DATE: 17/02/2026",
+        true
+      ]
+    ],
+    "phi_000012": [
+      [
+        "SCAN DATE: 21/02/2026",
+        true
+      ],
+      [
+        "ID: PT-10012",
+        true
+      ]
+    ],
+    "phi_000013": [
+      [
+        "ID: PT-10013",
+        true
+      ],
+      [
+        "PRIME",
+        false
+      ],
+      [
+        "CLINIC",
+        false
+      ],
+      [
+        "Elbow",
+        false
+      ],
+      [
+        "J.B/V",
+        false
+      ],
+      [
+        "PATIENT: TEST_AARAV SAMPLE",
+        true
+      ],
+      [
+        "SCAN DATE: 10/07/2026",
+        true
+      ],
+      [
+        "DOB: 01/01/2013",
+        true
+      ]
+    ],
+    "phi_000014": [
+      [
+        "ID: PT-10014",
+        true
+      ],
+      [
+        "PATIENT: TEST_NISHA SAMPLE",
+        true
+      ],
+      [
+        "SCAN DATE: 27/09/2026",
+        true
+      ],
+      [
+        "DOB: 13/10/1981",
+        true
+      ]
+    ],
+    "phi_000015": [
+      [
+        "CS",
+        false
+      ],
+      [
+        "R",
+        false
+      ],
+      [
+        "RIYA",
+        false
+      ],
+      [
+        "SAMPLE",
+        false
+      ],
+      [
+        "Fore",
+        false
+      ],
+      [
+        "Arm",
+        false
+      ],
+      [
+        "SCAN DATE: 03/06/2026",
+        true
+      ],
+      [
+        "ID: PT-10015",
+        true
+      ],
+      [
+        "ry)",
+        false
+      ],
+      [
+        "DOB: 24/07/1989",
+        true
+      ],
+      [
+        "a",
+        false
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "m>,",
+        false
+      ],
+      [
+        "-",
+        false
+      ]
+    ],
+    "phi_000016": [
+      [
+        "SCAN DATE: 12/09/2026",
+        true
+      ],
+      [
+        "DOB: 21/08/1992",
+        true
+      ],
+      [
+        "PATIENT: TEST ARJUN SUBJECT",
+        true
+      ]
+    ],
+    "phi_000017": [
+      [
+        "SCAN DATE: 30/01/2027",
+        true
+      ],
+      [
+        "Shoulder",
+        false
+      ],
+      [
+        "PATIENT: TEST_KARAN SUBJECT",
+        true
+      ],
+      [
+        "ID: PT-10017",
+        true
+      ]
+    ],
+    "phi_000018": [
+      [
+        "PATIENT: TEST_KAVYA PATIENT",
+        true
+      ],
+      [
+        "SCAN DATE: 13/09/2025",
+        true
+      ],
+      [
+        "DOB: 05/08/2010 R \u2014",
+        true
+      ],
+      [
+        "PRIME",
+        false
+      ],
+      [
+        "CLINIC",
+        false
+      ],
+      [
+        "Hand",
+        false
+      ],
+      [
+        "ID: PT-10018",
+        true
+      ]
+    ],
+    "phi_000019": [
+      [
+        "DOB: 07/07/2018",
+        true
+      ],
+      [
+        "PATIENT: TEST_VIVAN PERSON }",
+        true
+      ],
+      [
+        "y",
+        false
+      ],
+      [
+        "SCAN DATE: 27/04/2026 F",
+        true
+      ],
+      [
+        "ID: PT-10019",
+        true
+      ]
+    ],
+    "phi_000020": [
+      [
+        "DOB: 28/03/1981",
+        true
+      ],
+      [
+        "TEST_ADITYA",
+        false
+      ],
+      [
+        "SUBJECT",
+        false
+      ],
+      [
+        "SCAN DATE: 29/04/2025. \u00a9",
+        true
+      ],
+      [
+        "nf",
+        false
+      ],
+      [
+        "u",
+        false
+      ]
+    ],
+    "phi_000021": [
+      [
+        "12/11/2026",
+        true
+      ],
+      [
+        "DOB: 20/02/1983",
+        true
+      ],
+      [
+        "ID: PT-10021",
+        true
+      ],
+      [
+        "PATIENT: TEST_KAVYA CASE",
+        true
+      ]
+    ],
+    "phi_000022": [
+      [
+        "SCAN DATE: 16/03/2027",
+        true
+      ],
+      [
+        "DOB: 14/04/1999 I",
+        true
+      ],
+      [
+        "PATIENT: TEST_ROHAN PATIENT",
+        true
+      ],
+      [
+        "'",
+        false
+      ],
+      [
+        "ID: PT-10022",
+        true
+      ]
+    ],
+    "phi_000023": [
+      [
+        "DoB:",
+        true
+      ],
+      [
+        "12/02/2018",
+        true
+      ],
+      [
+        "ID: PT-10023",
+        true
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        "SCAN DATE: 26/02/2027",
+        true
+      ],
+      [
+        "PATIENT: TEST_MEERA SAMPLE",
+        true
+      ]
+    ],
+    "phi_000024": [
+      [
+        "SCAN DATE: 15/04/2027",
+        true
+      ],
+      [
+        "oo",
+        false
+      ],
+      [
+        "DOB: 25/06/2007 he",
+        true
+      ],
+      [
+        "Wy\\",
+        false
+      ],
+      [
+        "PATIENT: TEST_KAVYA CASE",
+        true
+      ],
+      [
+        "ID: PT-10024",
+        true
+      ]
+    ],
+    "phi_000025": [
+      [
+        "ID: PT-10025",
+        true
+      ],
+      [
+        "PATIENT: TEST_ARJUN PATIENT",
+        true
+      ],
+      [
+        "SCAN DATE: 12/12/2026",
+        true
+      ],
+      [
+        "J",
+        false
+      ],
+      [
+        "DOB: 07/03/1997",
+        true
+      ],
+      [
+        "ee",
+        false
+      ]
+    ],
+    "phi_000026": [
+      [
+        "DOB: 13/04/2018",
+        true
+      ],
+      [
+        "]",
+        false
+      ],
+      [
+        "|",
+        false
+      ],
+      [
+        "SCAN DATE: @6/05/2027",
+        true
+      ],
+      [
+        "ID: PT-10026",
+        true
+      ],
+      [
+        "PATIENT: TEST_ROHAN CASE",
+        true
+      ]
+    ],
+    "phi_000027": [
+      [
+        "PATIENT: TEST_VIVAN SUBJECT",
+        true
+      ],
+      [
+        "SCAN DATE: 11/04/2026",
+        true
+      ],
+      [
+        "DOB: 29/06/1989",
+        true
+      ],
+      [
+        "ID: PT-10027",
+        true
+      ]
+    ],
+    "phi_000028": [
+      [
+        "sow",
+        false
+      ],
+      [
+        "ID: PT-10028",
+        true
+      ],
+      [
+        "DOB: 30/08/1985",
+        true
+      ],
+      [
+        "PATIENT: TEST_ARJUN PATIENT",
+        true
+      ],
+      [
+        "SCAN DATE: 30/04/2026 |)",
+        true
+      ]
+    ],
+    "phi_000029": [
+      [
+        "SCAN DATE: 23/07/2025",
+        true
+      ],
+      [
+        "PATIENT: TEST_VIVAN CASE",
+        true
+      ],
+      [
+        "DOB: 27/01/2012",
+        true
+      ],
+      [
+        "ID: PT-10029",
+        true
+      ]
+    ],
+    "phi_000030": [
+      [
+        "ID: PT-10030",
+        true
+      ],
+      [
+        "SCAN DATE: 06/06/2025",
+        true
+      ],
+      [
+        "DOB: 23/09/2011",
+        true
+      ],
+      [
+        "PATIENT: TEST_KAVYA CASE",
+        true
+      ],
+      [
+        "i",
+        false
+      ]
+    ],
+    "phi_000031": [
+      [
+        "PATIENT: TEST _AARAV CASE",
+        true
+      ],
+      [
+        "DOB: 04/03/2018",
+        true
+      ],
+      [
+        "SCAN DATE: 29/11/2025",
+        true
+      ],
+      [
+        "ID: PT-10031",
+        true
+      ]
+    ],
+    "phi_000032": [
+      [
+        "ID: PT-10032",
+        true
+      ],
+      [
+        "SCAN DATE: 18/01/2025",
+        true
+      ],
+      [
+        "DOB: 27/07/2015",
+        true
+      ],
+      [
+        "PATIENT: TEST_MEERA CASE",
+        true
+      ]
+    ],
+    "phi_000033": [
+      [
+        "PATIENT: TEST_ADITYA PATIENT",
+        true
+      ],
+      [
+        "ID: PT-10033",
+        true
+      ],
+      [
+        "SCAN DATE: 10/08/2025",
+        true
+      ],
+      [
+        "DOB: 04/08/1988",
+        true
+      ]
+    ],
+    "phi_000034": [
+      [
+        "PATIENT: TEST_MEERA PERSON",
+        true
+      ],
+      [
+        "SCAN DATE: 13/01/2025",
+        true
+      ],
+      [
+        "DOB: 23/02/2019",
+        true
+      ],
+      [
+        "ID: PT-10034",
+        true
+      ]
+    ],
+    "phi_000035": [
+      [
+        "ID: PT-10035",
+        true
+      ],
+      [
+        "PATIENT: TEST_VIVAN SAMPLE",
+        true
+      ],
+      [
+        "=",
+        false
+      ],
+      [
+        "DOB: 27/09/2006",
+        true
+      ],
+      [
+        "SCAN DATE: 21/03/2027",
+        true
+      ]
+    ],
+    "phi_000036": [
+      [
+        "SCAN DATE: 7/12/2026",
+        true
+      ],
+      [
+        "ID: PT-10036",
+        true
+      ],
+      [
+        "DOB: 17/03/2000",
+        true
+      ],
+      [
+        "PATIENT: TEST_AARAV CASE",
+        true
+      ],
+      [
+        "\u00ab",
+        false
+      ],
+      [
+        ".",
+        false
+      ],
+      [
+        ")",
+        false
+      ],
+      [
+        "ae",
+        false
+      ]
+    ],
+    "phi_000037": [
+      [
+        "DOB: 11/06/1987",
+        true
+      ],
+      [
+        "PATIENT: TEST_RIYA PERSON",
+        true
+      ],
+      [
+        "SCAN DATE: 23/03/2027",
+        true
+      ],
+      [
+        "ID: PT-10037",
+        true
+      ]
+    ],
+    "phi_000038": [
+      [
+        "DOB: 03/05/2006",
+        true
+      ],
+      [
+        "PATIENT: TEST_ANAYA SAMPLE",
+        true
+      ],
+      [
+        "ID: PT-10038",
+        true
+      ],
+      [
+        "SCAN DATE: 22/01/2025",
+        true
+      ]
+    ],
+    "phi_000039": [
+      [
+        "SCAN DATE: @2/01/2025",
+        true
+      ],
+      [
+        "7",
+        false
+      ],
+      [
+        "Al",
+        false
+      ],
+      [
+        "PATIENT: TEST_VIVAN SAMPLE",
+        true
+      ],
+      [
+        "ID: PT-10039",
+        true
+      ],
+      [
+        "DOB: 01/01/2017",
+        true
+      ]
+    ],
+    "phi_000040": [
+      [
+        "|",
+        false
+      ],
+      [
+        "DOB: 12/08/1980",
+        true
+      ],
+      [
+        ",",
+        false
+      ],
+      [
+        "SCAN DATE: 20/07/2026",
+        true
+      ],
+      [
+        "Wi",
+        false
+      ],
+      [
+        "PATIENT: TEST_ROHAN SAMPLE",
+        true
+      ],
+      [
+        "ID: PT-10040",
+        true
+      ]
+    ],
+    "phi_000041": [
+      [
+        "DOB: 19/10/2002",
+        true
+      ],
+      [
+        "PATIENT: TEST_ANAYA SAMPLE",
+        true
+      ],
+      [
+        "|",
+        false
+      ],
+      [
+        "}",
+        false
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        "SCAN DATE: 04/02/2027",
+        true
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        ";",
+        false
+      ]
+    ],
+    "phi_000042": [
+      [
+        "i",
+        false
+      ],
+      [
+        "i)",
+        false
+      ],
+      [
+        "Yo: PT-10042",
+        true
+      ],
+      [
+        "PATIENT: TEST_TARA PATIENT",
+        true
+      ],
+      [
+        "-",
+        false
+      ],
+      [
+        "v",
+        false
+      ],
+      [
+        "DOB: 25/08/2005",
+        true
+      ],
+      [
+        "i",
+        false
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        "SCAN DATE: 28/01/2026",
+        true
+      ],
+      [
+        "vi",
+        false
+      ]
+    ],
+    "phi_000043": [
+      [
+        "ID: PT-10043",
+        true
+      ],
+      [
+        "PATIENT: TEST_TARA PATIENT",
+        true
+      ],
+      [
+        "| DOB: 23/05/1998",
+        true
+      ],
+      [
+        "SCAN DATE: 11/06/2027",
+        true
+      ],
+      [
+        "iii",
+        false
+      ],
+      [
+        "mmmmmemmneenmmmeratiae",
+        false
+      ]
+    ],
+    "phi_000044": [
+      [
+        "PATIENT: TEST_VIVAN PERSON DOB: 08/02/2014",
+        true
+      ],
+      [
+        "5",
+        false
+      ],
+      [
+        "iat",
+        false
+      ],
+      [
+        "SCAN DATE: 11/10/2026",
+        true
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "ID: PT-10044",
+        true
+      ]
+    ],
+    "phi_000045": [
+      [
+        "SCAN DATE: 26/08/2025",
+        true
+      ],
+      [
+        "ID: PT-10045",
+        true
+      ],
+      [
+        "DOB: 02/06/1986",
+        true
+      ],
+      [
+        "PATIENT: TEST_MEERA SAMPLE",
+        true
+      ]
+    ],
+    "phi_000046": [
+      [
+        "DOB: 12/04/2018",
+        true
+      ],
+      [
+        "Ail",
+        false
+      ],
+      [
+        "ID: PT-10046",
+        true
+      ],
+      [
+        "9",
+        false
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        "SCAN",
+        false
+      ],
+      [
+        "DATE:",
+        false
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        "PATIENT: TEST_ANAYA CASE",
+        true
+      ],
+      [
+        "=",
+        false
+      ]
+    ],
+    "phi_000047": [
+      [
+        "PATIEN",
+        false
+      ],
+      [
+        "a",
+        false
+      ],
+      [
+        "SCAN DATE: 27/12/2025",
+        true
+      ],
+      [
+        "TEST_ANAYA",
+        false
+      ],
+      [
+        "SAMPLE",
+        false
+      ],
+      [
+        "ID: PT-10047",
+        true
+      ],
+      [
+        "| DOB: 21/12/2015 =",
+        true
+      ],
+      [
+        "ANS",
+        false
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        ".",
+        false
+      ],
+      [
+        "\u2018",
+        false
+      ]
+    ],
+    "phi_000048": [
+      [
+        "SCAN DATE: 25/07/2025",
+        true
+      ],
+      [
+        "DOB: 17/11/1987",
+        true
+      ],
+      [
+        "ID: PT-10048",
+        true
+      ],
+      [
+        "PATIENT: TEST_KAVYA CASE",
+        true
+      ]
+    ],
+    "phi_000049": [
+      [
+        "SCAN DATE: 28/09/2025",
+        true
+      ],
+      [
+        "PATIENT: TEST_RIYA CASE",
+        true
+      ],
+      [
+        "DOB: 16/08/1980",
+        true
+      ],
+      [
+        "ID: PT-10049",
+        true
+      ]
+    ],
+    "phi_000050": [
+      [
+        "|",
+        false
+      ],
+      [
+        "4",
+        false
+      ],
+      [
+        "ti",
+        false
+      ],
+      [
+        "DOB: 11/05/1984",
+        true
+      ],
+      [
+        "SCAN DATE: 29/08/2025",
+        true
+      ],
+      [
+        "PATIENT: TEST_MEERA PERSON",
+        true
+      ],
+      [
+        "ID: PT-10050",
+        true
+      ]
+    ],
+    "phi_000051": [
+      [
+        "ID: PT-10051",
+        true
+      ],
+      [
+        "PATIENT: TEST_KAVYA SAMPLE",
+        true
+      ],
+      [
+        "A",
+        false
+      ],
+      [
+        "SCAN DATE: 23/10/2026",
+        true
+      ],
+      [
+        "I",
+        false
+      ],
+      [
+        "DOB: 12/06/2020",
+        true
+      ]
+    ],
+    "phi_000052": [
+      [
+        "PATIENT: TEST_ANAYA PATIENT",
+        true
+      ],
+      [
+        "V",
+        false
+      ],
+      [
+        "SCAN DATE: 04/03/2027",
+        true
+      ],
+      [
+        "ID: PT-10052",
+        true
+      ],
+      [
+        "DoB: 27/09/1994",
+        true
+      ]
+    ],
+    "phi_000053": [
+      [
+        "ID: PT-10053",
+        true
+      ],
+      [
+        "DOB: 12/06/2013",
+        true
+      ],
+      [
+        "i\u201c",
+        false
+      ],
+      [
+        "SCAN DATE: @7/03/2025",
+        true
+      ],
+      [
+        ")",
+        false
+      ],
+      [
+        "PATIENT: TEST_ADITYA PERSON",
+        true
+      ]
+    ],
+    "phi_000054": [
+      [
+        "bs",
+        false
+      ],
+      [
+        "\"SCAN DATE: 15/09/2026",
+        true
+      ],
+      [
+        "TD: PT-10054 Hy",
+        true
+      ],
+      [
+        "PATIENT: TEST_RIYA PERSON",
+        true
+      ],
+      [
+        "4",
+        false
+      ],
+      [
+        "DOB: 13/06/1994",
+        true
+      ]
+    ],
+    "phi_000055": [
+      [
+        "1 08/04/2025",
+        true
+      ],
+      [
+        "ID: PT-10055",
+        true
+      ],
+      [
+        "/ | DoB: 22/09/2012",
+        true
+      ],
+      [
+        "i",
+        false
+      ],
+      [
+        "PATIENT: TES _VIVAN CASE",
+        true
+      ],
+      [
+        "y",
+        false
+      ],
+      [
+        "=~",
+        false
+      ],
+      [
+        "Seige",
+        false
+      ],
+      [
+        "\u2014",
+        false
+      ],
+      [
+        "\u00a7",
+        false
+      ]
+    ],
+    "phi_000056": [
+      [
+        "DOB: 20/01/2010",
+        true
+      ],
+      [
+        "PATIENT: TEST_ADITYA SUBJECT",
+        true
+      ],
+      [
+        "a",
+        false
+      ],
+      [
+        "SCAN DATE: 06/05/2025",
+        true
+      ],
+      [
+        "ID: PT-10056",
+        true
+      ]
+    ],
+    "phi_000057": [
+      [
+        "ID: PT-10057",
+        true
+      ],
+      [
+        "DOB: 10/07/2007",
+        true
+      ],
+      [
+        "SCAN DATE: 23/11/2026",
+        true
+      ],
+      [
+        "PATIENT: TEST_ADITYA SAMPLE",
+        true
+      ]
+    ],
+    "phi_000058": [
+      [
+        "ID: PT-10058",
+        true
+      ],
+      [
+        "DOB: 16/08/2019",
+        true
+      ],
+      [
+        "PATIENT: TEST_NISHA PERSON",
+        true
+      ],
+      [
+        "TA",
+        false
+      ],
+      [
+        "SCAN DATE: 23/02/2025",
+        true
+      ],
+      [
+        "1;",
+        false
+      ],
+      [
+        "i",
+        false
+      ]
+    ],
+    "phi_000059": [
+      [
+        "i",
+        false
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        "PATIENT: TEST_VIVAN SAMPLE",
+        true
+      ],
+      [
+        "NN",
+        false
+      ],
+      [
+        "DOB: 16/06/1982",
+        true
+      ],
+      [
+        "ID: PT-10059",
+        true
+      ],
+      [
+        "SCAN DATE: @8/01/2025",
+        true
+      ]
+    ],
+    "phi_000060": [
+      [
+        "SCAN DATE: @2/06/2027",
+        true
+      ],
+      [
+        "W",
+        false
+      ],
+      [
+        "ID: PT-10060",
+        true
+      ],
+      [
+        "S",
+        false
+      ],
+      [
+        "PATIENT: TEST_AARAV CASE",
+        true
+      ],
+      [
+        "i",
+        false
+      ],
+      [
+        "DOB: 29/06/1983",
+        true
+      ],
+      [
+        "\\",
+        false
+      ]
+    ],
+    "phi_000061": [
+      [
+        "=",
+        false
+      ],
+      [
+        "PATIENT: TEST_NISHA CASE",
+        true
+      ],
+      [
+        "I\\",
+        false
+      ],
+      [
+        "SCAN DATE: 22/03/2025",
+        true
+      ],
+      [
+        "iv",
+        false
+      ],
+      [
+        "ID: PT-10061",
+        true
+      ],
+      [
+        "03/07/2003",
+        true
+      ],
+      [
+        "eres...",
+        false
+      ]
+    ],
+    "phi_000062": [
+      [
+        "eh",
+        false
+      ],
+      [
+        "eT",
+        false
+      ],
+      [
+        "TEST_ANAYA PATIENT",
+        true
+      ],
+      [
+        "ID: PT-10062",
+        true
+      ],
+      [
+        "i",
+        false
+      ],
+      [
+        "SCAN DATE: 06/06/2025",
+        true
+      ],
+      [
+        "DOB: 08/01/2007",
+        true
+      ]
+    ],
+    "phi_000063": [
+      [
+        "SCAN DATE: @8/02/2025",
+        true
+      ],
+      [
+        "a",
+        false
+      ],
+      [
+        "DOB: 09/04/2000",
+        true
+      ],
+      [
+        "ID: PT-10063",
+        true
+      ],
+      [
+        "PATIENT: TEST_ROHAN CASE",
+        true
+      ]
+    ],
+    "phi_000064": [
+      [
+        "\\",
+        false
+      ],
+      [
+        "SCAN DATE: 26/12/2026",
+        true
+      ],
+      [
+        "yi)",
+        false
+      ],
+      [
+        "oN",
+        false
+      ],
+      [
+        "PT-10064. G",
+        true
+      ],
+      [
+        "DOB: 11/02/1991",
+        true
+      ],
+      [
+        "|",
+        false
+      ],
+      [
+        "PATIENT: TEST_ARJUN PERSON",
+        true
+      ],
+      [
+        "nf",
+        false
+      ]
+    ],
+    "phi_000065": [
+      [
+        "ID: PT-10065",
+        true
+      ],
+      [
+        "SCAN DATE: 27/07/2026",
+        true
+      ],
+      [
+        "mi",
+        false
+      ],
+      [
+        "2",
+        false
+      ],
+      [
+        "DOB: 20/11/1993 4",
+        true
+      ],
+      [
+        "PATIENT: TEST_NISHA PERSON",
+        true
+      ]
+    ],
+    "phi_000066": [
+      [
+        "ID: PT-10066",
+        true
+      ],
+      [
+        "iM",
+        false
+      ],
+      [
+        "PATIENT: TEST_RIYA SUBJECT",
+        true
+      ],
+      [
+        "DOB: 17/11/2017",
+        true
+      ],
+      [
+        "SCAN DATE: 19/03/2027",
+        true
+      ]
+    ],
+    "phi_000067": [
+      [
+        "ID: PT-10067",
+        true
+      ],
+      [
+        "DOB: 30/06/1990",
+        true
+      ],
+      [
+        "I",
+        false
+      ],
+      [
+        "PATIENT: TEST_TARA CASE",
+        true
+      ],
+      [
+        "SCAN DATE: 1/07/2026",
+        true
+      ]
+    ],
+    "phi_000068": [
+      [
+        "PATIENT: TEST_TARA SAMPLE",
+        true
+      ],
+      [
+        "i",
+        false
+      ],
+      [
+        "(I ID: PT-10068",
+        true
+      ],
+      [
+        "os",
+        false
+      ],
+      [
+        "DoB: sorrel \\",
+        true
+      ],
+      [
+        "SCAN DATE: 08/05/2025 |",
+        true
+      ]
+    ],
+    "phi_000069": [
+      [
+        "1",
+        false
+      ],
+      [
+        "SCAN DATE: 12/04/2025",
+        true
+      ],
+      [
+        "\\",
+        false
+      ],
+      [
+        "DOB: 18/04/1994",
+        true
+      ],
+      [
+        "ID: PT-10069",
+        true
+      ],
+      [
+        "PATIENT: TEST_ANAYA PERSON",
+        true
+      ],
+      [
+        "i}",
+        false
+      ],
+      [
+        "SS",
+        false
+      ]
+    ],
+    "phi_000070": [
+      [
+        "ID: PT-10070",
+        true
+      ],
+      [
+        "DOB: 21/02/1982",
+        true
+      ],
+      [
+        "|",
+        false
+      ],
+      [
+        "SCAN DATE: 2/09/2025",
+        true
+      ],
+      [
+        "PATIENT: TEST_ROHAN PERSON",
+        true
+      ]
+    ],
+    "phi_000071": [
+      [
+        "ID: PT-10071",
+        true
+      ],
+      [
+        "SCAN DATE: 12/07/2026",
+        true
+      ],
+      [
+        "7",
+        false
+      ],
+      [
+        "DOB: 06/08/2003 |",
+        true
+      ],
+      [
+        "PATIENT: TEST_KAVYA PERSON",
+        true
+      ]
+    ],
+    "phi_000072": [
+      [
+        "ID: PT-10072 SCAN DATE: 09/03/2027",
+        true
+      ],
+      [
+        "PATIENT: TEST_KAVYA PATIENT",
+        true
+      ],
+      [
+        "DOB: 01/04/2017",
+        true
+      ]
+    ],
+    "phi_000073": [
+      [
+        "PATIENT: TEST_ROHAN SUBJECT",
+        true
+      ],
+      [
+        "I",
+        false
+      ],
+      [
+        "DOB: 03/09/2018",
+        true
+      ],
+      [
+        "=m",
+        false
+      ],
+      [
+        "ID: PT-10073",
+        true
+      ],
+      [
+        "SCAN DATE: 11/03/2027",
+        true
+      ]
+    ],
+    "phi_000074": [
+      [
+        "SCAN DATE: 16/04/2025",
+        true
+      ],
+      [
+        "ID: PT-10074",
+        true
+      ],
+      [
+        "PATIENT: TEST_ADITYA SUBJECT",
+        true
+      ],
+      [
+        "DOB: 29/05/1994",
+        true
+      ]
+    ],
+    "phi_000075": [
+      [
+        "DOB: 25/05/1981",
+        true
+      ],
+      [
+        "SCAN DATE: 27/05/2025",
+        true
+      ],
+      [
+        "ID: PT-10075",
+        true
+      ],
+      [
+        "AR",
+        false
+      ],
+      [
+        "Ii\\\\%",
+        false
+      ],
+      [
+        "Ait",
+        false
+      ],
+      [
+        "PATIENT: TEST_ADITYA PATIENT",
+        true
+      ]
+    ],
+    "phi_000076": [
+      [
+        "DOB: 31/12/2012",
+        true
+      ],
+      [
+        "ID: PT-10076",
+        true
+      ],
+      [
+        "SCAN DATE: 10/07/2025",
+        true
+      ],
+      [
+        "PATIENT: TEST_RIYA PERSON",
+        true
+      ]
+    ],
+    "phi_000077": [
+      [
+        "PATIENT: TEST_ADITYA SUBJECT",
+        true
+      ],
+      [
+        "Via DOB: 25/12/2019",
+        true
+      ]
+    ],
+    "phi_000078": [
+      [
+        "_",
+        false
+      ],
+      [
+        "ID: PT-10078",
+        true
+      ],
+      [
+        "PATIENT: TEST_TARA CASE",
+        true
+      ],
+      [
+        "i",
+        false
+      ],
+      [
+        "SCAN DATE: 25/02/2026",
+        true
+      ],
+      [
+        "]",
+        false
+      ],
+      [
+        "DOB: 31/07/2003",
+        true
+      ],
+      [
+        "\u2014\u2014_",
+        false
+      ]
+    ],
+    "phi_000079": [
+      [
+        "ID: PT-10079",
+        true
+      ],
+      [
+        "PATIENT: TEST_ADITYA PERSON",
+        true
+      ],
+      [
+        "DOB: 17/04/2017",
+        true
+      ],
+      [
+        "SCAN DATE: @8/05/2025",
+        true
+      ]
+    ],
+    "phi_000080": [
+      [
+        "SCAN DATE: 1/03/2027",
+        true
+      ],
+      [
+        "ID: PT-10080",
+        true
+      ],
+      [
+        "DOB: 09/10/2008",
+        true
+      ],
+      [
+        "PATIENT: TEST_RIYA PERSON",
+        true
+      ],
+      [
+        ".\u2014\u2014\u2014E\u2014",
+        false
+      ],
+      [
+        "EEE",
+        false
+      ]
+    ],
+    "phi_000081": [
+      [
+        "ID: PT-10081",
+        true
+      ],
+      [
+        "SCAN DATE: @6/01/2027",
+        true
+      ],
+      [
+        "PATIENT: TEST_ARJUN SUBJECT",
+        true
+      ],
+      [
+        "23/08/2018",
+        true
+      ],
+      [
+        "\u2014",
+        false
+      ]
+    ],
+    "phi_000082": [
+      [
+        "PATIENT: TEST_KAVYA PATIENT E",
+        true
+      ],
+      [
+        "DOB: 25/03/2014",
+        true
+      ],
+      [
+        "ID: PT-10082",
+        true
+      ],
+      [
+        "7",
+        false
+      ],
+      [
+        "SCAN DATE: 13/06/2025",
+        true
+      ],
+      [
+        "a",
+        false
+      ]
+    ],
+    "phi_000083": [
+      [
+        "AW",
+        false
+      ],
+      [
+        "4",
+        false
+      ],
+      [
+        "PATIENT: TEST_VIVAN SUBJECT",
+        true
+      ],
+      [
+        "t",
+        false
+      ],
+      [
+        "ID: PT-10083 |",
+        true
+      ],
+      [
+        "SCAN DATE: 15/02/2026",
+        true
+      ],
+      [
+        "DOB: 11/01/1982",
+        true
+      ]
+    ],
+    "phi_000084": [
+      [
+        "DOB: 02/01/1998",
+        true
+      ],
+      [
+        "ide",
+        true
+      ],
+      [
+        "PATIENT: TEST_NISHA SAMPLE",
+        true
+      ],
+      [
+        "ID: PT-10084",
+        true
+      ],
+      [
+        "SCAN DATE: 28/05/2026",
+        true
+      ],
+      [
+        "I",
+        false
+      ],
+      [
+        "~",
+        false
+      ]
+    ],
+    "phi_000085": [
+      [
+        "ID: PT-10085",
+        true
+      ],
+      [
+        "DOB: 10/07/1996",
+        true
+      ],
+      [
+        "TT",
+        false
+      ],
+      [
+        "=.. PATIENT: TEST MEERA PERSON",
+        true
+      ],
+      [
+        "\u2014\u2014\u2014\u2014",
+        false
+      ],
+      [
+        "SCAN DATE: @6/12/2025",
+        true
+      ]
+    ],
+    "phi_000086": [
+      [
+        "PATIENT: TEST_VIVAN PATIENT",
+        true
+      ],
+      [
+        "hd",
+        false
+      ],
+      [
+        "SCAN DATE: 09/12/2026",
+        true
+      ],
+      [
+        "DOB: 10/07/1998",
+        true
+      ],
+      [
+        "ID: PT-10086",
+        true
+      ]
+    ],
+    "phi_000087": [
+      [
+        "F ID: PT-10087",
+        true
+      ],
+      [
+        "SCAN DATE: 11/05/2026",
+        true
+      ],
+      [
+        "PATIENT: TEST_KARAN SUBJECT",
+        true
+      ],
+      [
+        "14/05/2007",
+        true
+      ],
+      [
+        "OO",
+        false
+      ],
+      [
+        "Ol",
+        false
+      ]
+    ],
+    "phi_000088": [
+      [
+        "PATIENT: TEST_KAVYA CASE",
+        true
+      ],
+      [
+        "ID: PT-10088",
+        true
+      ],
+      [
+        "SCAN DATE: 20/09/2025",
+        true
+      ],
+      [
+        "a",
+        false
+      ],
+      [
+        "DOB: 04/06/2009",
+        true
+      ]
+    ],
+    "phi_000089": [
+      [
+        "PATIENT: TEST_KARAN CASE",
+        true
+      ],
+      [
+        "A",
+        false
+      ],
+      [
+        "SCAN DATE: 29/10/2026",
+        true
+      ],
+      [
+        "ID: PT-10089",
+        true
+      ],
+      [
+        "DOB: 01/06/2001",
+        true
+      ],
+      [
+        "EO",
+        false
+      ],
+      [
+        "\u2014",
+        false
+      ]
+    ],
+    "phi_000090": [
+      [
+        "ID: PT-10090",
+        true
+      ],
+      [
+        "SCAN DATE: 10/12/2025",
+        true
+      ],
+      [
+        "PATIENT: TEST_NISHA SAMPLE",
+        true
+      ],
+      [
+        "DOB: 24/10/1984",
+        true
+      ]
+    ],
+    "phi_000091": [
+      [
+        "ID: PT-10091",
+        true
+      ],
+      [
+        "ii",
+        false
+      ],
+      [
+        "PATIENT: TEST_ADITYA SUBJECT",
+        true
+      ],
+      [
+        "gry",
+        false
+      ],
+      [
+        "az",
+        false
+      ],
+      [
+        "i",
+        false
+      ],
+      [
+        "SCAN DATE: 15/02/2026",
+        true
+      ],
+      [
+        "\u00a5",
+        false
+      ],
+      [
+        "DOB: 22/11/1983",
+        true
+      ],
+      [
+        "an",
+        false
+      ]
+    ],
+    "phi_000092": [
+      [
+        "|",
+        false
+      ],
+      [
+        ".|\u2014Cr",
+        false
+      ],
+      [
+        "ee",
+        false
+      ],
+      [
+        "DOB: 09/03/1998",
+        true
+      ],
+      [
+        "ID: PT-10092",
+        true
+      ],
+      [
+        "SCAN DATE: 04/12/2026",
+        true
+      ],
+      [
+        "7",
+        false
+      ],
+      [
+        "PATIENT: TEST_ROHAN PATIENT",
+        true
+      ]
+    ],
+    "phi_000093": [
+      [
+        "PATIENT: TEST_NISHA PERSON",
+        true
+      ],
+      [
+        "ID: PT-10093",
+        true
+      ],
+      [
+        "DOB: 08/10/1982",
+        true
+      ],
+      [
+        "SCAN DATE: 29/04/2027",
+        true
+      ]
+    ],
+    "phi_000094": [
+      [
+        "SCAN DATE: 10/03/2026",
+        true
+      ],
+      [
+        "ID: PT-10094",
+        true
+      ],
+      [
+        "DOB: 12/01/1982",
+        true
+      ],
+      [
+        "PATIENT: TEST_NISHA PERSON",
+        true
+      ]
+    ],
+    "phi_000095": [
+      [
+        "ID: PT-10095",
+        true
+      ],
+      [
+        "PATIENT: TEST_KARAN SAMPLE",
+        true
+      ],
+      [
+        "ja",
+        false
+      ],
+      [
+        "SCAN DATE: 01/11/2026",
+        true
+      ],
+      [
+        "DOB: 18/12/1985",
+        true
+      ]
+    ],
+    "phi_000096": [
+      [
+        "SCAN DATE: 8/11/2026",
+        true
+      ],
+      [
+        "Nee",
+        false
+      ],
+      [
+        "DOB: 23/04/2016 |",
+        true
+      ],
+      [
+        "ay",
+        false
+      ],
+      [
+        "J",
+        false
+      ],
+      [
+        "i\\",
+        false
+      ],
+      [
+        "Vy",
+        false
+      ],
+      [
+        "Ont",
+        false
+      ],
+      [
+        "ID: PT-10096",
+        true
+      ],
+      [
+        "PATIENT: TEST_RIYA PERSON",
+        true
+      ],
+      [
+        "re",
+        false
+      ]
+    ],
+    "phi_000097": [
+      [
+        "ID: PT-10097",
+        true
+      ],
+      [
+        "DOB: 03/07/1990",
+        true
+      ],
+      [
+        "N",
+        false
+      ],
+      [
+        "SCAN DATE: 16/04/2027",
+        true
+      ],
+      [
+        "az",
+        false
+      ],
+      [
+        "PATIENT: TEST_ADITYA SUBJECT",
+        true
+      ]
+    ],
+    "phi_000098": [
+      [
+        "ID: PT-10098",
+        true
+      ],
+      [
+        "i",
+        false
+      ],
+      [
+        "\u2018",
+        false
+      ],
+      [
+        "SCAN DATE: 3/03/2026",
+        true
+      ],
+      [
+        "os",
+        false
+      ],
+      [
+        "Bp DOB: 27/03/2011",
+        true
+      ],
+      [
+        "PATIENT: TEST_ADITYA SUBJECT",
+        true
+      ],
+      [
+        "=",
+        false
+      ]
+    ],
+    "phi_000099": [
+      [
+        "DOB: 02/07/2012",
+        true
+      ],
+      [
+        "|",
+        false
+      ],
+      [
+        "PATIENT: TEST_RIYA SAMPLE",
+        true
+      ],
+      [
+        "SCAN DATE: 30/04/2027",
+        true
+      ],
+      [
+        "Ysa",
+        false
+      ],
+      [
+        "ID: PT-10099",
+        true
+      ]
+    ],
+    "phi_000100": [
+      [
+        "PATIENT: TEST_RIYA CASE",
+        true
+      ],
+      [
+        "i",
+        false
+      ],
+      [
+        "FI",
+        false
+      ],
+      [
+        "SCAN DATE: 06/09/2025",
+        true
+      ],
+      [
+        "DOB: 07/01/2021",
+        true
+      ],
+      [
+        "ID: PT-10100",
+        true
+      ],
+      [
+        "Y",
+        false
+      ]
+    ]
+  },
+  "errors": []
+}

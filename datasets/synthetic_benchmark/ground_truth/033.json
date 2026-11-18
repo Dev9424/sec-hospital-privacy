@@ -1,0 +1,82 @@
+{
+  "image_id": "033.jpg",
+  "source_file": "IMG0003795.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 454,
+  "image_height": 373,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003795.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: SUBHASH DAS",
+      "bbox": [
+        245,
+        294,
+        411,
+        306
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 266
+    },
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2024-17262",
+      "bbox": [
+        245,
+        314,
+        404,
+        327
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 266
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "NATIONAL MEDICAL INSTITUTE",
+      "bbox": [
+        245,
+        334,
+        454,
+        346
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 266
+    }
+  ],
+  "random_seed": 266,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

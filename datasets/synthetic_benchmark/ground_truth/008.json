@@ -1,0 +1,82 @@
+{
+  "image_id": "008.jpg",
+  "source_file": "IMG0003328.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003328.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "top_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: SAVITA DUTTA",
+      "bbox": [
+        9,
+        9,
+        184,
+        21
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 91
+    },
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2026-67687",
+      "bbox": [
+        9,
+        29,
+        168,
+        42
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 91
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "RELIABLE HEALTH SERVICES",
+      "bbox": [
+        9,
+        49,
+        207,
+        61
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 91
+    }
+  ],
+  "random_seed": 91,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

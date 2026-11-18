@@ -1,0 +1,98 @@
+{
+  "image_id": "055.jpg",
+  "source_file": "IMG0004376.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0004376.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.566306,
+      0.362753,
+      0.058596,
+      0.03125
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      200,
+      157,
+      222,
+      171
+    ]
+  ],
+  "layout_pattern": "top_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: PRIYA TIWARI",
+      "bbox": [
+        190,
+        152,
+        364,
+        164
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0687,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 420
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P52664",
+      "bbox": [
+        190,
+        172,
+        373,
+        185
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 420
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 16/11/1951",
+      "bbox": [
+        190,
+        192,
+        316,
+        208
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 420
+    }
+  ],
+  "random_seed": 420,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

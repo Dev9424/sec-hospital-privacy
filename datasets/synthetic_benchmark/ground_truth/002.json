@@ -1,0 +1,82 @@
+{
+  "image_id": "002.jpg",
+  "source_file": "IMG0003539.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003539.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: VIVEK THAKUR",
+      "bbox": [
+        9,
+        375,
+        184,
+        387
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 49
+    },
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2020-46166",
+      "bbox": [
+        9,
+        395,
+        168,
+        408
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 49
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "METRO HEALTHCARE HOSPITAL",
+      "bbox": [
+        9,
+        415,
+        217,
+        427
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 49
+    }
+  ],
+  "random_seed": 49,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

@@ -1,0 +1,136 @@
+{
+  "image_id": "015.jpg",
+  "source_file": "IMG0002575.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002575.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.276471,
+      0.402219,
+      0.031004,
+      0.056697
+    ],
+    [
+      0.676168,
+      0.397615,
+      0.044042,
+      0.050164
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      97,
+      169,
+      108,
+      195
+    ],
+    [
+      243,
+      169,
+      260,
+      191
+    ]
+  ],
+  "layout_pattern": "top_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: SANJAY MEHTA",
+      "bbox": [
+        87,
+        164,
+        262,
+        176
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0505,
+      "fracture_annotation_ids": [
+        0,
+        1
+      ],
+      "random_seed": 140
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P77494",
+      "bbox": [
+        87,
+        184,
+        285,
+        197
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0442,
+      "fracture_annotation_ids": [
+        0,
+        1
+      ],
+      "random_seed": 140
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "GREENFIELD MEDICAL CENTRE",
+      "bbox": [
+        87,
+        204,
+        293,
+        216
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 140
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. T. VERMA",
+      "bbox": [
+        87,
+        224,
+        230,
+        236
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 140
+    }
+  ],
+  "random_seed": 140,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

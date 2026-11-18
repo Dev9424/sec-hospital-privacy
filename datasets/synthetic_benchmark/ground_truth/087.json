@@ -1,0 +1,104 @@
+{
+  "image_id": "087.jpg",
+  "source_file": "IMG0001272.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0001272.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "top_right",
+  "fields": [
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P87727",
+      "bbox": [
+        164,
+        9,
+        314,
+        19
+      ],
+      "placement_region": "top_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 644
+    },
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2024-80474",
+      "bbox": [
+        164,
+        25,
+        285,
+        35
+      ],
+      "placement_region": "top_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 644
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "LIFELINE HOSPITAL",
+      "bbox": [
+        164,
+        41,
+        272,
+        51
+      ],
+      "placement_region": "top_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 644
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: ORTHOPAEDICS",
+      "bbox": [
+        164,
+        57,
+        278,
+        67
+      ],
+      "placement_region": "top_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 644
+    }
+  ],
+  "random_seed": 644,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

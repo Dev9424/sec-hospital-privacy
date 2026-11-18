@@ -1,0 +1,82 @@
+{
+  "image_id": "084.jpg",
+  "source_file": "IMG0003371.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003371.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "top_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: VIVEK VERMA",
+      "bbox": [
+        164,
+        9,
+        331,
+        21
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 623
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P22405",
+      "bbox": [
+        164,
+        29,
+        362,
+        42
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 623
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 22/05/2004",
+      "bbox": [
+        164,
+        49,
+        290,
+        65
+      ],
+      "placement_region": "top_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 623
+    }
+  ],
+  "random_seed": 623,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

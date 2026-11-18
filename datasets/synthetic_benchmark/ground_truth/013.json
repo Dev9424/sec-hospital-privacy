@@ -1,0 +1,104 @@
+{
+  "image_id": "013.jpg",
+  "source_file": "IMG0000686.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0000686.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "HOSPITAL",
+      "text": "SARASWATI MEDICAL CENTRE",
+      "bbox": [
+        164,
+        355,
+        362,
+        367
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 126
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: TRAUMA & ORTHO",
+      "bbox": [
+        164,
+        375,
+        331,
+        387
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 126
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 08/03/2023",
+      "bbox": [
+        164,
+        395,
+        298,
+        411
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 126
+    },
+    {
+      "type": "EXAMINATION_NUMBER",
+      "text": "EXAM: EX-8976",
+      "bbox": [
+        164,
+        415,
+        274,
+        428
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 126
+    }
+  ],
+  "random_seed": 126,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

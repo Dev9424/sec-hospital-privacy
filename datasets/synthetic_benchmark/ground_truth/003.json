@@ -1,0 +1,134 @@
+{
+  "image_id": "003.jpg",
+  "source_file": "IMG0002578.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002578.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.264969,
+      0.458094,
+      0.088011,
+      0.032046
+    ],
+    [
+      0.842044,
+      0.554643,
+      0.092012,
+      0.034511
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      82,
+      200,
+      115,
+      215
+    ],
+    [
+      296,
+      243,
+      331,
+      259
+    ]
+  ],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2025-40269",
+      "bbox": [
+        286,
+        238,
+        373,
+        251
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        220,
+        220,
+        220
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.1984,
+      "fracture_annotation_ids": [
+        1
+      ],
+      "random_seed": 56
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 04/06/2026",
+      "bbox": [
+        286,
+        258,
+        373,
+        274
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        220,
+        220,
+        220
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0183,
+      "fracture_annotation_ids": [
+        1
+      ],
+      "random_seed": 56
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: RADIOLOGY",
+      "bbox": [
+        286,
+        278,
+        373,
+        290
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        220,
+        220,
+        220
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 56
+    },
+    {
+      "type": "EXAMINATION_NUMBER",
+      "text": "EXAM: EX-6527",
+      "bbox": [
+        286,
+        298,
+        373,
+        311
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        220,
+        220,
+        220
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 56
+    }
+  ],
+  "random_seed": 56,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

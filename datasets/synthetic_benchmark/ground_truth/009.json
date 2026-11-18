@@ -1,0 +1,104 @@
+{
+  "image_id": "009.jpg",
+  "source_file": "IMG0003657.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003657.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2020-72040",
+      "bbox": [
+        164,
+        355,
+        323,
+        368
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 98
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 10/12/2002",
+      "bbox": [
+        164,
+        375,
+        290,
+        391
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 98
+    },
+    {
+      "type": "ACCESSION_NUMBER",
+      "text": "ACC: ACC-25-82906",
+      "bbox": [
+        164,
+        395,
+        307,
+        408
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 98
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: RADIOLOGY",
+      "bbox": [
+        164,
+        415,
+        291,
+        427
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 98
+    }
+  ],
+  "random_seed": 98,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

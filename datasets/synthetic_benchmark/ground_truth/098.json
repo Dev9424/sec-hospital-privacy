@@ -1,0 +1,100 @@
+{
+  "image_id": "098.jpg",
+  "source_file": "IMG0003420.jpg",
+  "source_category": "Fractured",
+  "image_width": 454,
+  "image_height": 373,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003420.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.719923,
+      0.473273,
+      0.056079,
+      0.056743
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      314,
+      165,
+      339,
+      187
+    ]
+  ],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P93693",
+      "bbox": [
+        304,
+        160,
+        454,
+        170
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0649,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 721
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 14/10/1979",
+      "bbox": [
+        304,
+        176,
+        400,
+        188
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": true,
+      "fracture_iou": 0.1927,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 721
+    },
+    {
+      "type": "ACCESSION_NUMBER",
+      "text": "ACC: ACC-21-56364",
+      "bbox": [
+        304,
+        192,
+        413,
+        202
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 721
+    }
+  ],
+  "random_seed": 721,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

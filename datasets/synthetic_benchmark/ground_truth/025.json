@@ -1,0 +1,102 @@
+{
+  "image_id": "025.jpg",
+  "source_file": "IMG0002369.jpg",
+  "source_category": "Fractured",
+  "image_width": 2304,
+  "image_height": 2880,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0002369.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.365961,
+      0.224733,
+      0.204396,
+      0.171734
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      607,
+      399,
+      1078,
+      894
+    ]
+  ],
+  "layout_pattern": "bottom_left",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: USHA VERMA",
+      "bbox": [
+        597,
+        394,
+        927,
+        414
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 28,
+      "text_color": [
+        220,
+        220,
+        220
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0204,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 210
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. V. REDDY",
+      "bbox": [
+        597,
+        428,
+        892,
+        448
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 28,
+      "text_color": [
+        220,
+        220,
+        220
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0244,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 210
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 04/09/2025",
+      "bbox": [
+        597,
+        462,
+        875,
+        489
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 28,
+      "text_color": [
+        220,
+        220,
+        220
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.031,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 210
+    }
+  ],
+  "random_seed": 210,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

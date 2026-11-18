@@ -1,0 +1,104 @@
+{
+  "image_id": "086.jpg",
+  "source_file": "IMG0000754.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0000754.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P69383",
+      "bbox": [
+        164,
+        371,
+        314,
+        381
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 637
+    },
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2023-97898",
+      "bbox": [
+        164,
+        387,
+        285,
+        397
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 637
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "SUNRISEHEALTH HOSPITAL",
+      "bbox": [
+        164,
+        403,
+        302,
+        413
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 637
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: ORTHOPAEDICS",
+      "bbox": [
+        164,
+        419,
+        278,
+        429
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 637
+    }
+  ],
+  "random_seed": 637,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

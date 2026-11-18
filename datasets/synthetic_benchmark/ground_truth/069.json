@@ -1,0 +1,104 @@
+{
+  "image_id": "069.jpg",
+  "source_file": "IMG0003190.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 454,
+  "image_height": 373,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003190.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2024-75418",
+      "bbox": [
+        245,
+        274,
+        404,
+        287
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 518
+    },
+    {
+      "type": "STUDY_DATE",
+      "text": "DATE: 24/04/2026",
+      "bbox": [
+        245,
+        294,
+        379,
+        310
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 518
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: MUSCULOSKELETAL IMAGING",
+      "bbox": [
+        245,
+        314,
+        454,
+        326
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 518
+    },
+    {
+      "type": "EXAMINATION_NUMBER",
+      "text": "EXAM: EX-8494",
+      "bbox": [
+        245,
+        334,
+        355,
+        347
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 518
+    }
+  ],
+  "random_seed": 518,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

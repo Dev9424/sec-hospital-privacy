@@ -1,0 +1,126 @@
+{
+  "image_id": "092.jpg",
+  "source_file": "IMG0000949.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0000949.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "bottom_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: POOJA DUBEY",
+      "bbox": [
+        164,
+        355,
+        290,
+        365
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 679
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P57761",
+      "bbox": [
+        164,
+        371,
+        314,
+        381
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 679
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 07/09/1976",
+      "bbox": [
+        164,
+        387,
+        260,
+        399
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 679
+    },
+    {
+      "type": "DOCTOR_NAME",
+      "text": "REF: DR. C. BANSAL",
+      "bbox": [
+        164,
+        403,
+        278,
+        413
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 679
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: MUSCULOSKELETAL IMAGING",
+      "bbox": [
+        164,
+        419,
+        344,
+        429
+      ],
+      "placement_region": "bottom_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 679
+    }
+  ],
+  "random_seed": 679,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

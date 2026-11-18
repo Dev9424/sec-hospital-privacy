@@ -1,0 +1,122 @@
+{
+  "image_id": "063.jpg",
+  "source_file": "IMG0003217.jpg",
+  "source_category": "Fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003217.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.469471,
+      0.446957,
+      0.093089,
+      0.053454
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      157,
+      190,
+      192,
+      215
+    ]
+  ],
+  "layout_pattern": "bottom_left",
+  "fields": [
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P64145",
+      "bbox": [
+        147,
+        185,
+        345,
+        198
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0884,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 476
+    },
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2021-67678",
+      "bbox": [
+        147,
+        205,
+        306,
+        218
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.135,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 476
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "APOLLO MEDICAL CENTRE",
+      "bbox": [
+        147,
+        225,
+        322,
+        237
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 476
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: INTERVENTIONAL RADIOLOGY",
+      "bbox": [
+        147,
+        245,
+        373,
+        257
+      ],
+      "placement_region": "bottom_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 476
+    }
+  ],
+  "random_seed": 476,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}

@@ -1,0 +1,82 @@
+{
+  "image_id": "096.jpg",
+  "source_file": "IMG0003823.jpg",
+  "source_category": "Non_fractured",
+  "image_width": 373,
+  "image_height": 454,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0003823.txt",
+  "fracture_boxes_yolo": [],
+  "fracture_boxes_pixel": [],
+  "layout_pattern": "top_right",
+  "fields": [
+    {
+      "type": "PATIENT_NAME",
+      "text": "PATIENT: AARAV SHUKLA",
+      "bbox": [
+        164,
+        9,
+        297,
+        19
+      ],
+      "placement_region": "top_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 707
+    },
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P79137",
+      "bbox": [
+        164,
+        25,
+        314,
+        35
+      ],
+      "placement_region": "top_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 707
+    },
+    {
+      "type": "DOB",
+      "text": "DOB: 18/11/1969",
+      "bbox": [
+        164,
+        41,
+        260,
+        53
+      ],
+      "placement_region": "top_right",
+      "font_size": 10,
+      "text_color": [
+        100,
+        100,
+        100
+      ],
+      "background_treatment": "low_contrast",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 707
+    }
+  ],
+  "random_seed": 707,
+  "has_fracture_overlap": false,
+  "overlap_group": "A_no_overlap"
+}

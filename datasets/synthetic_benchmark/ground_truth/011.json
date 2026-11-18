@@ -1,0 +1,137 @@
+{
+  "image_id": "011.jpg",
+  "source_file": "IMG0001780.jpg",
+  "source_category": "Fractured",
+  "image_width": 454,
+  "image_height": 373,
+  "yolo_annotation_file": "Annotations\\YOLO\\IMG0001780.txt",
+  "fracture_boxes_yolo": [
+    [
+      0.550632,
+      0.690633,
+      0.039155,
+      0.074774
+    ],
+    [
+      0.586074,
+      0.652835,
+      0.03578,
+      0.059984
+    ]
+  ],
+  "fracture_boxes_pixel": [
+    [
+      241,
+      243,
+      258,
+      271
+    ],
+    [
+      257,
+      232,
+      274,
+      254
+    ]
+  ],
+  "layout_pattern": "top_left",
+  "fields": [
+    {
+      "type": "PATIENT_ID",
+      "text": "PATIENT ID: SUPMS-P96973",
+      "bbox": [
+        247,
+        227,
+        445,
+        240
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0484,
+      "fracture_annotation_ids": [
+        1
+      ],
+      "random_seed": 112
+    },
+    {
+      "type": "MRN",
+      "text": "MRN: MRN-2021-57512",
+      "bbox": [
+        247,
+        247,
+        406,
+        260
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0596,
+      "fracture_annotation_ids": [
+        0,
+        1
+      ],
+      "random_seed": 112
+    },
+    {
+      "type": "HOSPITAL",
+      "text": "UNITY HOSPITAL & RESEARCH",
+      "bbox": [
+        247,
+        267,
+        454,
+        279
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": true,
+      "fracture_iou": 0.0151,
+      "fracture_annotation_ids": [
+        0
+      ],
+      "random_seed": 112
+    },
+    {
+      "type": "DEPARTMENT",
+      "text": "DEPT: DIAGNOSTIC IMAGING",
+      "bbox": [
+        247,
+        287,
+        446,
+        299
+      ],
+      "placement_region": "top_left",
+      "font_size": 14,
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "background_treatment": "none",
+      "fracture_overlap": false,
+      "fracture_iou": 0.0,
+      "fracture_annotation_ids": [],
+      "random_seed": 112
+    }
+  ],
+  "random_seed": 112,
+  "has_fracture_overlap": true,
+  "overlap_group": "B_fracture_overlap"
+}
