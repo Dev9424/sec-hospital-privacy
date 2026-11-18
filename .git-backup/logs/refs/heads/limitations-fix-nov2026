@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 dd4c821ac274ae79b559c8c3a86ed5164790ef04 Devansh9424 <devansh@wandermewell.com> 1794906658 +0530	branch: Created from HEAD
+dd4c821ac274ae79b559c8c3a86ed5164790ef04 22d862ff155f992f70c489e6737b73fe31536583 Devansh9424 <devansh@wandermewell.com> 1794907569 +0530	commit: fix(step3): update ICD-10 pattern to accept U-codes (27/27 pass)
+22d862ff155f992f70c489e6737b73fe31536583 c849e72e6dd161fc52b5d42722d174e5cbb31222 Devansh9424 <devansh@wandermewell.com> 1794907651 +0530	commit: feat(step4): make discordance min days threshold configurable via env (24/24 pass)
+c849e72e6dd161fc52b5d42722d174e5cbb31222 1c567df5521525fc6af737d9fba6b61c82c1c110 Devansh9424 <devansh@wandermewell.com> 1794996323 +0530	commit: docs: add architecture guides and configure security .gitignore
+1c567df5521525fc6af737d9fba6b61c82c1c110 9861197a686d9320c2d8bda93cf9068b57a571dc Devansh9424 <devansh@wandermewell.com> 1794999801 +0530	commit: chore: remove all generated markdown guide and checklist files

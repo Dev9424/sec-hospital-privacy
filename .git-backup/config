@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	fsmonitor = false
+[remote "origin"]
+	url = https://github.com/Dev9424/sec-hospital.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "fixes-nov2026"]
+	vscode-merge-base = origin/main
+[remote "supms"]
+	url = https://github.com/Dev9424/SUPMS.git
+	fetch = +refs/heads/*:refs/remotes/supms/*
+[remote "sec-hospital-privacy"]
+	url = https://github.com/Dev9424/sec-hospital-privacy.git
+	fetch = +refs/heads/*:refs/remotes/sec-hospital-privacy/*
